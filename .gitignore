@@ -13,4 +13,5 @@ unpackaged/namespaced_zipped
 unpackaged/zipped
 unpackaged_stage
 packaged
+src/package.xml
 .*.swp
