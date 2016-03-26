@@ -32,5 +32,9 @@
     <import file="${env.CUMULUSCI_PATH}/build/build.xml" />
 
     <!-- Add project specific build targets and CumulusCI overrides here -->
+    <target name="preDeployCI">
+        <!-- build a new package xml so we always have the latest and greatest from our code repository and we do not have to care about writing package.xml's our selves-->
+        <antcall target="updatePackageXml"/>
+    </target>
 
 </project>
