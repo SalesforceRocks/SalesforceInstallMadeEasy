@@ -87,6 +87,13 @@
             "xmlName": "Group"
         },
         {
+            "directoryName": "customPermissions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "customPermission",
+            "xmlName": "CustomPermission"
+        },
+        {
             "childXmlNames": [
                 "CustomField",
                 "BusinessProcess",
@@ -415,13 +422,6 @@
             "metaFile": false,
             "suffix": "appMenu",
             "xmlName": "AppMenu"
-        },
-        {
-            "directoryName": "customPermissions",
-            "inFolder": false,
-            "metaFile": false,
-            "suffix": "customPermission",
-            "xmlName": "CustomPermission"
         },
         {
             "directoryName": "siteDotComSites",
