@@ -1,0 +1,3959 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirhAAC",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Connective",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 14,
+                    "line": 38
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Connective",
+                "references": [],
+                "type": "Connective"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 63
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Combined",
+                    "parameters": [
+                        {
+                            "name": "connectiveExpression",
+                            "type": "Connective"
+                        },
+                        {
+                            "name": "internalMatchers",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 69
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 100
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "validate",
+                    "parameters": [
+                        {
+                            "name": "connectiveExpression",
+                            "type": "Connective"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Connective",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 110
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "validate",
+                    "parameters": [
+                        {
+                            "name": "innerMatchers",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                }
+            ],
+            "name": "Combined",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 54
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "connectiveExpression",
+                    "references": [],
+                    "type": "Connective"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 55
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "internalMatchers",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 52
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Combined",
+                "references": [],
+                "type": "Combined"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 63
+                    },
+                    "modifiers": [],
+                    "name": "connectiveExpression",
+                    "references": [],
+                    "type": "Connective"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 73,
+                        "line": 63
+                    },
+                    "modifiers": [],
+                    "name": "internalMatchers",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 69
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 71
+                    },
+                    "modifiers": [],
+                    "name": "internalMatcher",
+                    "references": [],
+                    "type": "fflib_IMatcher"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 100
+                    },
+                    "modifiers": [],
+                    "name": "connectiveExpression",
+                    "references": [],
+                    "type": "Connective"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 63,
+                        "line": 110
+                    },
+                    "modifiers": [],
+                    "name": "innerMatchers",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 137
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Eq",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 142
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "Eq",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 130
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Object"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 128
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Eq",
+                "references": [],
+                "type": "Eq"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 137
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 142
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 160
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "RefEq",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 165
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "RefEq",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 153
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Object"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 151
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "RefEq",
+                "references": [],
+                "type": "RefEq"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 160
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 165
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 180
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyBoolean",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 178
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyBoolean",
+                "references": [],
+                "type": "AnyBoolean"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 180
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 191
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyDate",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 189
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyDate",
+                "references": [],
+                "type": "AnyDate"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 191
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 202
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyDatetime",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 200
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyDatetime",
+                "references": [],
+                "type": "AnyDatetime"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 202
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 213
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyDecimal",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 211
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyDecimal",
+                "references": [],
+                "type": "AnyDecimal"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 213
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 224
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyDouble",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 222
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyDouble",
+                "references": [],
+                "type": "AnyDouble"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 224
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 235
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyFieldSet",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 233
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyFieldSet",
+                "references": [],
+                "type": "AnyFieldSet"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 235
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 246
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyId",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 244
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyId",
+                "references": [],
+                "type": "AnyId"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 246
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 257
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyInteger",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 255
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyInteger",
+                "references": [],
+                "type": "AnyInteger"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 257
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 268
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyList",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 266
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyList",
+                "references": [],
+                "type": "AnyList"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 268
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 279
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyLong",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 277
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyLong",
+                "references": [],
+                "type": "AnyLong"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 279
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 290
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyObject",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 288
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyObject",
+                "references": [],
+                "type": "AnyObject"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 290
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 301
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnyString",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 299
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnyString",
+                "references": [],
+                "type": "AnyString"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 301
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 312
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnySObject",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 310
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnySObject",
+                "references": [],
+                "type": "AnySObject"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 312
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 323
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnySObjectField",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 321
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnySObjectField",
+                "references": [],
+                "type": "AnySObjectField"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 323
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 334
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "AnySObjectType",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 332
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AnySObjectType",
+                "references": [],
+                "type": "AnySObjectType"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 334
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 358
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DatetimeAfter",
+                    "parameters": [
+                        {
+                            "name": "fromDatetime",
+                            "type": "Datetime"
+                        },
+                        {
+                            "name": "inclusive",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 364
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "DatetimeAfter",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 349
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fromDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 350
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 347
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DatetimeAfter",
+                "references": [],
+                "type": "DatetimeAfter"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 358
+                    },
+                    "modifiers": [],
+                    "name": "fromDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 358
+                    },
+                    "modifiers": [],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 364
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 368
+                    },
+                    "modifiers": [],
+                    "name": "datetimeToCompare",
+                    "references": [],
+                    "type": "Datetime"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 390
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DatetimeBefore",
+                    "parameters": [
+                        {
+                            "name": "toDatetime",
+                            "type": "Datetime"
+                        },
+                        {
+                            "name": "inclusive",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 396
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "DatetimeBefore",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 381
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 382
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 379
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DatetimeBefore",
+                "references": [],
+                "type": "DatetimeBefore"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 390
+                    },
+                    "modifiers": [],
+                    "name": "toDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 390
+                    },
+                    "modifiers": [],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 396
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 400
+                    },
+                    "modifiers": [],
+                    "name": "datetimeToCompare",
+                    "references": [],
+                    "type": "Datetime"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 426
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DatetimeBetween",
+                    "parameters": [
+                        {
+                            "name": "fromDatetime",
+                            "type": "Datetime"
+                        },
+                        {
+                            "name": "inclusiveFrom",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "toDatetime",
+                            "type": "Datetime"
+                        },
+                        {
+                            "name": "inclusiveTo",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 434
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "DatetimeBetween",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 413
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fromDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 414
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusiveFrom",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 415
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 416
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusiveTo",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 411
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DatetimeBetween",
+                "references": [],
+                "type": "DatetimeBetween"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 426
+                    },
+                    "modifiers": [],
+                    "name": "fromDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 426
+                    },
+                    "modifiers": [],
+                    "name": "inclusiveFrom",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 81,
+                        "line": 426
+                    },
+                    "modifiers": [],
+                    "name": "toDatetime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 101,
+                        "line": 426
+                    },
+                    "modifiers": [],
+                    "name": "inclusiveTo",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 434
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 438
+                    },
+                    "modifiers": [],
+                    "name": "datetimeToCompare",
+                    "references": [],
+                    "type": "Datetime"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 472
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DecimalBetween",
+                    "parameters": [
+                        {
+                            "name": "lower",
+                            "type": "Decimal"
+                        },
+                        {
+                            "name": "inclusiveLower",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "upper",
+                            "type": "Decimal"
+                        },
+                        {
+                            "name": "inclusiveUpper",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 480
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "DecimalBetween",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 459
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "lower",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 460
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusiveLower",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 461
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "upper",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 462
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusiveUpper",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 457
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DecimalBetween",
+                "references": [],
+                "type": "DecimalBetween"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 472
+                    },
+                    "modifiers": [],
+                    "name": "lower",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 48,
+                        "line": 472
+                    },
+                    "modifiers": [],
+                    "name": "inclusiveLower",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 72,
+                        "line": 472
+                    },
+                    "modifiers": [],
+                    "name": "upper",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 87,
+                        "line": 472
+                    },
+                    "modifiers": [],
+                    "name": "inclusiveUpper",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 480
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 484
+                    },
+                    "modifiers": [],
+                    "name": "longArg",
+                    "references": [],
+                    "type": "Decimal"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 511
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DecimalLessThan",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Decimal"
+                        },
+                        {
+                            "name": "inclusive",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 517
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "DecimalLessThan",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 502
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 503
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 500
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DecimalLessThan",
+                "references": [],
+                "type": "DecimalLessThan"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 511
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 51,
+                        "line": 511
+                    },
+                    "modifiers": [],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 517
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 521
+                    },
+                    "modifiers": [],
+                    "name": "longArg",
+                    "references": [],
+                    "type": "Decimal"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 543
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DecimalMoreThan",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Decimal"
+                        },
+                        {
+                            "name": "inclusive",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 549
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "DecimalMoreThan",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 534
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 535
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 532
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DecimalMoreThan",
+                "references": [],
+                "type": "DecimalMoreThan"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 543
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 51,
+                        "line": 543
+                    },
+                    "modifiers": [],
+                    "name": "inclusive",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 549
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 553
+                    },
+                    "modifiers": [],
+                    "name": "longArg",
+                    "references": [],
+                    "type": "Decimal"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 10,
+                        "line": 577
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FieldSetEquivalentTo",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 582
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FieldSetEquivalentTo",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "FieldSet"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 587
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "FieldSetEquivalentTo",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 571
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Set"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 569
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "FieldSetEquivalentTo",
+                "references": [],
+                "type": "FieldSetEquivalentTo"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 582
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "FieldSet"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 587
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 602
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "IsNotNull",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 600
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IsNotNull",
+                "references": [],
+                "type": "IsNotNull"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 602
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 613
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "IsNull",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 611
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IsNull",
+                "references": [],
+                "type": "IsNull"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 613
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 635
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ListContains",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 640
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "ListContains",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 628
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Object"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 626
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ListContains",
+                "references": [],
+                "type": "ListContains"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 635
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 640
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 644
+                    },
+                    "modifiers": [],
+                    "name": "o",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 662
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "ListIsEmpty",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 660
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ListIsEmpty",
+                "references": [],
+                "type": "ListIsEmpty"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 662
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 686
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectOfType",
+                    "parameters": [
+                        {
+                            "name": "objectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 691
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "SObjectOfType",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 679
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "objectType",
+                    "references": [],
+                    "type": "SObjectType"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 677
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SObjectOfType",
+                "references": [],
+                "type": "SObjectOfType"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 686
+                    },
+                    "modifiers": [],
+                    "name": "objectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 691
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 695
+                    },
+                    "modifiers": [],
+                    "name": "soArg",
+                    "references": [],
+                    "type": "SObject"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 719
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectWith",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 724
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 756
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "validate",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Map",
+                    "type": null
+                }
+            ],
+            "name": "SObjectWith",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 712
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 710
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SObjectWith",
+                "references": [],
+                "type": "SObjectWith"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 719
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 724
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 728
+                    },
+                    "modifiers": [],
+                    "name": "soArg",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 729
+                    },
+                    "modifiers": [],
+                    "name": "f",
+                    "references": [],
+                    "type": "SObjectField"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 731
+                    },
+                    "modifiers": [],
+                    "name": "valueToMatch",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 86,
+                        "line": 756
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Map"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 779
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectWithId",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "Id"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 784
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "SObjectWithId",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 772
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Id"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 770
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SObjectWithId",
+                "references": [],
+                "type": "SObjectWithId"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 779
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 784
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 788
+                    },
+                    "modifiers": [],
+                    "name": "soArg",
+                    "references": [],
+                    "type": "SObject"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 808
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectWithName",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 813
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "SObjectWithName",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 801
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 799
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SObjectWithName",
+                "references": [],
+                "type": "SObjectWithName"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 808
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 813
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 817
+                    },
+                    "modifiers": [],
+                    "name": "soArg",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 818
+                    },
+                    "modifiers": [],
+                    "name": "describe",
+                    "references": [],
+                    "type": "DescribeSObjectResult"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 819
+                    },
+                    "modifiers": [],
+                    "name": "f",
+                    "references": [],
+                    "type": "SObjectField"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 848
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StringContains",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 853
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "StringContains",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 841
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 839
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "StringContains",
+                "references": [],
+                "type": "StringContains"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 848
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 853
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 871
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StringEndsWith",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 876
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "StringEndsWith",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 864
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 862
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "StringEndsWith",
+                "references": [],
+                "type": "StringEndsWith"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 871
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 876
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 887
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "StringIsBlank",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 885
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "StringIsBlank",
+                "references": [],
+                "type": "StringIsBlank"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 887
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 898
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "StringIsNotBlank",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 896
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "StringIsNotBlank",
+                "references": [],
+                "type": "StringIsNotBlank"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 898
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 916
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StringMatches",
+                    "parameters": [
+                        {
+                            "name": "regEx",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 921
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "StringMatches",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 909
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "pat",
+                    "references": [],
+                    "type": "Pattern"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 907
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "StringMatches",
+                "references": [],
+                "type": "StringMatches"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 916
+                    },
+                    "modifiers": [],
+                    "name": "regEx",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 921
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 939
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StringStartsWith",
+                    "parameters": [
+                        {
+                            "name": "toMatch",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 944
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "StringStartsWith",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 932
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 930
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "StringStartsWith",
+                "references": [],
+                "type": "StringStartsWith"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 939
+                    },
+                    "modifiers": [],
+                    "name": "toMatch",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 944
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003JirhAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 954
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "validateNotNull",
+            "parameters": [
+                {
+                    "name": "arg",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        }
+    ],
+    "name": "fflib_MatcherDefinitions",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 33
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_MatcherDefinitions",
+        "references": [],
+        "type": "fflib_MatcherDefinitions"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 954
+            },
+            "modifiers": [],
+            "name": "arg",
+            "references": [],
+            "type": "Object"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirnAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirnAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 38
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "thenReturn",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "thenThrow",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_MethodReturnValue",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 32
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ReturnValue",
+            "references": [],
+            "type": "Object"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 27
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "fflib_MethodReturnValue",
+        "references": [],
+        "type": "fflib_MethodReturnValue"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        }
+    ]
+}

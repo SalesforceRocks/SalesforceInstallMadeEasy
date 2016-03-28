@@ -1,0 +1,2568 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JiriAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JiriAAC",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 59
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenConstructingCombinedWithNullConnectiveExpressionShouldThrowException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 73
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenConstructingCombinedWithNullInternalMatchersShouldThrowException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 87
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenConstructingCombinedWithEmptyInternalMatchersShouldThrowException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 101
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenCombinedMatchesWithAllExpressionShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 112
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenCombinedMatchesWithAtLeastOneExpressionShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 123
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenCombinedMatchesWithNoneExpressionShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 134
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructEq_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 148
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenEqMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 160
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructRefEq_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 174
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenRefEqMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 185
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyBooleanMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 195
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyDateMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 204
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyDatetimeMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 213
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyDecimalMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 224
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyDoubleMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 235
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyFieldSetMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 249
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyIdMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 261
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyIntegerMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 272
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyListMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 283
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyLongMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 294
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyObjectMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 304
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnyStringMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 313
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnySObjectMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 322
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnySObjectFieldMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 331
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenAnySObjectTypeMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 340
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeAfter_WithNullFromDatetime_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 354
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeAfter_WithNullInclusive_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 368
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDatetimeAfterMatchesWithoutInclusiveShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 379
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDatetimeAfterMatchesWithInclusiveShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 390
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeBefore_WithNullToDatetime_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 404
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeBefore_WithNullInclusive_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 418
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDatetimeBeforeMatchesWithoutInclusiveShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 429
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDatetimeBeforeMatchesWithInclusiveShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 440
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeBetween_WithNullFromDatetime_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 454
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeBetween_WithNullToDatetime_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 468
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeBetween_WithNullInclusiveFrom_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 482
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDatetimeBetween_WithNullInclusiveTo_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 496
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDatetimeBetweenMatchesWithInclusiveFromWithoutInclusiveToShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 508
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDatetimeBetweenMatchesWithInclusiveToWithoutInclusiveFromShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 520
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalBetween_WithNullLower_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 534
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalBetween_WithNullInclusiveLower_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 548
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalBetween_WithNullUpper_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 562
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalBetween_WithNullInclusiveUpper_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 576
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDecimalBetweenMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 628
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalLessThan_WithNullToMatch_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 642
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalLessThan_WithNullInclusive_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 656
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDecimalLessThanMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 679
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalMoreThan_WithNullToMatch_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 693
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructDecimalMoreThan_WithNullInclusive_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 707
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenDecimalMoreThanMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 730
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructFieldSetEquivalentTo_WithNullFieldSet_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 744
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenFieldSetEquivalentToWithoutFieldSetShouldNeverMatch",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 752
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenFieldSetEquivalentToMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 767
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenIsNullMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 775
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenIsNotNullMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 783
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenListContainsMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 796
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenListIsEmptyMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 810
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructSObjectOfType_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 824
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenSObjectOfTypeMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 837
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructSObjectWith_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 851
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructSObjectWith_WithEmptyArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 865
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenSObjectWithMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 896
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructSObjectWithId_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 910
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenSObjectWithIdMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 923
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructSObjectWithName_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 937
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenSObjectWithNameMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 950
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStringContainsMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 962
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructStringContains_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 976
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStringEndsWithMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 988
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructStringEndsWith_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 1002
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenIsBlankWithMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 1012
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenIsNotBlankWithMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 1022
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStringMatchesMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 1036
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructStringMatches_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 1050
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStringStartsWithMatchesShouldReturnCorrectResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 1062
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "constructStringStartsWith_WithNullArg_ThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_MatcherDefinitionsTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 29
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "INTERNAL_MATCHERS",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 35
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "TODAY",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 36
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "NOW",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 38
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "ACCOUNT_RECORD",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "ACCOUNT_OBJECT_TYPE",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "OPPORTUNITY_OBJECT_TYPE",
+            "references": [],
+            "type": "SObjectType"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 27
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "fflib_MatcherDefinitionsTest",
+        "references": [],
+        "type": "fflib_MatcherDefinitionsTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "globalDescribe",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "accountRecord",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 6,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "s1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "s2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "s1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "s2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "anyFieldSet",
+            "references": [],
+            "type": "FieldSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 251
+            },
+            "modifiers": [],
+            "name": "idString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 6,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "accountId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 306
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 324
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 333
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 370
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 420
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 431
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 498
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 510
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 578
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 579
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 581
+            },
+            "modifiers": [],
+            "name": "exLowerExUpper",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 582
+            },
+            "modifiers": [],
+            "name": "exLowerInUpper",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 583
+            },
+            "modifiers": [],
+            "name": "inLowerExUpper",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 584
+            },
+            "modifiers": [],
+            "name": "inLowerInUpper",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 658
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 660
+            },
+            "modifiers": [],
+            "name": "exclusive",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 661
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 709
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 711
+            },
+            "modifiers": [],
+            "name": "exclusive",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 712
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 747
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 754
+            },
+            "modifiers": [],
+            "name": "anyFieldSet",
+            "references": [],
+            "type": "FieldSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 760
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 769
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 777
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 785
+            },
+            "modifiers": [],
+            "name": "names",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 786
+            },
+            "modifiers": [],
+            "name": "empty",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 798
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 800
+            },
+            "modifiers": [],
+            "name": "names",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 801
+            },
+            "modifiers": [],
+            "name": "empty",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 826
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 867
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 868
+            },
+            "modifiers": [],
+            "name": "idField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 869
+            },
+            "modifiers": [],
+            "name": "nameField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 870
+            },
+            "modifiers": [],
+            "name": "createdDateField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 872
+            },
+            "modifiers": [],
+            "name": "queriedFieldValues",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 878
+            },
+            "modifiers": [],
+            "name": "notQueriedFieldValues",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 883
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 912
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 939
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 952
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 978
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1004
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1014
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1024
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 1052
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        }
+    ]
+}

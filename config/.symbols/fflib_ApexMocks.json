@@ -1,0 +1,774 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 69
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_ApexMocks",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003JirZAAS",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ApexMocksException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 263
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ApexMocksException",
+                "references": [],
+                "type": "ApexMocksException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003JirZAAS",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verify",
+            "parameters": [
+                {
+                    "name": "mockInstance",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 99
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verify",
+            "parameters": [
+                {
+                    "name": "mockInstance",
+                    "type": "Object"
+                },
+                {
+                    "name": "times",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 112
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyMethodCall",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 120
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "startStubbing",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 128
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stopStubbing",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 138
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "when",
+            "parameters": [
+                {
+                    "name": "ignoredRetVal",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_MethodReturnValue",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 149
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "recordMethod",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 160
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "prepareMethodReturnValue",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_MethodReturnValue",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 172
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getMethodReturnValue",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_MethodReturnValue",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 182
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "doThrowWhen",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                },
+                {
+                    "name": "mockInstance",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 196
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mockVoidMethod",
+            "parameters": [
+                {
+                    "name": "mockInstance",
+                    "type": "Object"
+                },
+                {
+                    "name": "methodName",
+                    "type": "String"
+                },
+                {
+                    "name": "methodArgTypes",
+                    "type": "LIST"
+                },
+                {
+                    "name": "methodArgValues",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 229
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mockNonVoidMethod",
+            "parameters": [
+                {
+                    "name": "mockInstance",
+                    "type": "Object"
+                },
+                {
+                    "name": "methodName",
+                    "type": "String"
+                },
+                {
+                    "name": "methodArgTypes",
+                    "type": "LIST"
+                },
+                {
+                    "name": "methodArgValues",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 78
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "extractTypeName",
+            "parameters": [
+                {
+                    "name": "mockInstance",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "fflib_ApexMocks",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "methodCountRecorder",
+            "references": [],
+            "type": "fflib_MethodCountRecorder"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 31
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "methodReturnValueRecorder",
+            "references": [],
+            "type": "fflib_MethodReturnValueRecorder"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 33
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Verifying",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Stubbing",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DoThrowWhenException",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 28
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "NEVER",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 26
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_ApexMocks",
+        "references": [],
+        "type": "fflib_ApexMocks"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "mockInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "mockInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "times",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "ignoredRetVal",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 106,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "mockInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "mockInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "methodName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "methodArgTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "methodArgValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "argValues",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "methodReturnValue",
+            "references": [],
+            "type": "fflib_MethodReturnValue"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "mockInstance",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "methodName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "methodArgTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 114,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "methodArgValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 232
+            },
+            "modifiers": [],
+            "name": "argValues",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "methodReturnValue",
+            "references": [],
+            "type": "fflib_MethodReturnValue"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "mockInstance",
+            "references": [],
+            "type": "Object"
+        }
+    ]
+}

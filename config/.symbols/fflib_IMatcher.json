@@ -1,0 +1,61 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JireAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JireAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 35
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "matches",
+            "parameters": [
+                {
+                    "name": "arg",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "fflib_IMatcher",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 26
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_IMatcher",
+        "references": [],
+        "type": "fflib_IMatcher"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "arg",
+            "references": [],
+            "type": "Object"
+        }
+    ]
+}

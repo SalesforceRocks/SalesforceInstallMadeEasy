@@ -1,0 +1,287 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 43
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_MethodReturnValueRecorder",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003JiroAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JiroAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 56
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "prepareMethodReturnValue",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_MethodReturnValue",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 96
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getMethodReturnValue",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_MethodReturnValue",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 118
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "prepareDoThrowWhenException",
+            "parameters": [
+                {
+                    "name": "e",
+                    "type": "Exception"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_MethodReturnValueRecorder",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 28
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Stubbing",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 30
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DoThrowWhenException",
+            "references": [],
+            "type": "Exception"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "matcherReturnValuesByMethod",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "MethodReturnValue",
+            "references": [],
+            "type": "fflib_MethodReturnValue"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 26
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_MethodReturnValueRecorder",
+        "references": [],
+        "type": "fflib_MethodReturnValueRecorder"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 106,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "matcherReturnValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "arg",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "matchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "matchersForMethods",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "matchersReturnValue",
+            "references": [],
+            "type": "fflib_MatchersReturnValue"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Exception"
+        }
+    ]
+}

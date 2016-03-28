@@ -1,0 +1,300 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 42
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_MethodCountRecorder",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003JirmAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirmAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyMethodCall",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 65
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "recordMethod",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 80
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getMethodCount",
+            "parameters": [
+                {
+                    "name": "qm",
+                    "type": "fflib_QualifiedMethod"
+                },
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "fflib_MethodCountRecorder",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 28
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Verifying",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 29
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "VerifyCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 40
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "methodCountsByTypeName",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 26
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_MethodCountRecorder",
+        "references": [],
+        "type": "fflib_MethodCountRecorder"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "methodCountByArgs",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "currentCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "newCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "qm",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "retval",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "methodCountByArgs",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "matchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "args",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        }
+    ]
+}

@@ -1,0 +1,3849 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirfAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirfAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 42
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAndClearMatchers",
+            "parameters": [
+                {
+                    "name": "expectedSize",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 68
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "matchesAllArgs",
+            "parameters": [
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                },
+                {
+                    "name": "targetMatchers",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 87
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "validateArgs",
+            "parameters": [
+                {
+                    "name": "methodArg",
+                    "type": "fflib_MethodArgValues"
+                },
+                {
+                    "name": "targetMatchers",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 118
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "matches",
+            "parameters": [
+                {
+                    "name": "matcher",
+                    "type": "fflib_IMatcher"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 138
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "allOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 150
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "allOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                },
+                {
+                    "name": "o3",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 163
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "allOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                },
+                {
+                    "name": "o3",
+                    "type": "Object"
+                },
+                {
+                    "name": "o4",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 173
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "allOf",
+            "parameters": [
+                {
+                    "name": "o",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 184
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 196
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                },
+                {
+                    "name": "o3",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 209
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                },
+                {
+                    "name": "o3",
+                    "type": "Object"
+                },
+                {
+                    "name": "o4",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 219
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyOf",
+            "parameters": [
+                {
+                    "name": "o",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 229
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isNot",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 240
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "noneOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 252
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "noneOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                },
+                {
+                    "name": "o3",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 265
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "noneOf",
+            "parameters": [
+                {
+                    "name": "o1",
+                    "type": "Object"
+                },
+                {
+                    "name": "o2",
+                    "type": "Object"
+                },
+                {
+                    "name": "o3",
+                    "type": "Object"
+                },
+                {
+                    "name": "o4",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 275
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "noneOf",
+            "parameters": [
+                {
+                    "name": "o",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 280
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "combined",
+            "parameters": [
+                {
+                    "name": "connectiveExpression",
+                    "type": "Connective"
+                },
+                {
+                    "name": "o",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 285
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "gatherMatchers",
+            "parameters": [
+                {
+                    "name": "ignoredMatcherObjects",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 331
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eq",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 341
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqBoolean",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 351
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqDate",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 361
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqDatetime",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Datetime"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 371
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqDecimal",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 381
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqDouble",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 391
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqId",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 401
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqInteger",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 411
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqList",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 421
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqLong",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Long"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 431
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqSObjectField",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "SObjectField"
+                }
+            ],
+            "references": [],
+            "returnType": "SObjectField",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 441
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqSObjectType",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 451
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "eqString",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 461
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "refEq",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 470
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyBoolean",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 479
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyDate",
+            "parameters": [],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 488
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyDatetime",
+            "parameters": [],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 497
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyDecimal",
+            "parameters": [],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 506
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyDouble",
+            "parameters": [],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 515
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyFieldSet",
+            "parameters": [],
+            "references": [],
+            "returnType": "FieldSet",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 524
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyId",
+            "parameters": [],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 533
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyInteger",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 542
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 551
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyLong",
+            "parameters": [],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 560
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyObject",
+            "parameters": [],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 569
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anyString",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 578
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anySObject",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObject",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 587
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anySObjectField",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectField",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 596
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "anySObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 606
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "dateAfter",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 617
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "dateAfter",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 627
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "dateBefore",
+            "parameters": [
+                {
+                    "name": "toDate",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 638
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "dateBefore",
+            "parameters": [
+                {
+                    "name": "toDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 649
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "dateBetween",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "toDate",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 662
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "dateBetween",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "inclusiveFrom",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "toDate",
+                    "type": "Date"
+                },
+                {
+                    "name": "inclusiveTo",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 672
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "datetimeAfter",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Datetime"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 683
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "datetimeAfter",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 693
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "datetimeBefore",
+            "parameters": [
+                {
+                    "name": "toDate",
+                    "type": "Datetime"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 704
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "datetimeBefore",
+            "parameters": [
+                {
+                    "name": "toDate",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 715
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "datetimeBetween",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "toDate",
+                    "type": "Datetime"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 728
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "datetimeBetween",
+            "parameters": [
+                {
+                    "name": "fromDate",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "inclusiveFrom",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "toDate",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "inclusiveTo",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 739
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "decimalBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "upper",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 752
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "decimalBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "inclusiveLower",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "upper",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "inclusiveUpper",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 762
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "decimalLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 773
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "decimalLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 783
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "decimalMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 794
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "decimalMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Decimal"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Decimal",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 805
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doubleBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Double"
+                },
+                {
+                    "name": "upper",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 818
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doubleBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Double"
+                },
+                {
+                    "name": "inclusiveLower",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "upper",
+                    "type": "Double"
+                },
+                {
+                    "name": "inclusiveUpper",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 828
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doubleLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 839
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doubleLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Double"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 849
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doubleMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 860
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "doubleMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Double"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Double",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 870
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fieldSetEquivalentTo",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "FieldSet"
+                }
+            ],
+            "references": [],
+            "returnType": "FieldSet",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 881
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "integerBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Integer"
+                },
+                {
+                    "name": "upper",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 894
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "integerBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Integer"
+                },
+                {
+                    "name": "inclusiveLower",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "upper",
+                    "type": "Integer"
+                },
+                {
+                    "name": "inclusiveUpper",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 904
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "integerLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 915
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "integerLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Integer"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 925
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "integerMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 936
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "integerMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Integer"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 945
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isNotNull",
+            "parameters": [],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 954
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isNull",
+            "parameters": [],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 964
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listContains",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 973
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "listIsEmpty",
+            "parameters": [],
+            "references": [],
+            "returnType": "Object",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 984
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "longBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Long"
+                },
+                {
+                    "name": "upper",
+                    "type": "Long"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 997
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "longBetween",
+            "parameters": [
+                {
+                    "name": "lower",
+                    "type": "Long"
+                },
+                {
+                    "name": "inclusiveLower",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "upper",
+                    "type": "Long"
+                },
+                {
+                    "name": "inclusiveUpper",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1007
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "longLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Long"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1018
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "longLessThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Long"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1028
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "longMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Long"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 1039
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "longMoreThan",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Long"
+                },
+                {
+                    "name": "inclusive",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Long",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1049
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sObjectOfType",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "SObject",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1058
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sObjectWith",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "SObject",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1067
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sObjectWithId",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "SObject",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 1076
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sObjectWithName",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "SObject",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1086
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stringContains",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1096
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stringEndsWith",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1105
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stringIsBlank",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1114
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stringIsNotBlank",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1124
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stringMatches",
+            "parameters": [
+                {
+                    "name": "regEx",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 1134
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "stringStartsWith",
+            "parameters": [
+                {
+                    "name": "toMatch",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "fflib_Match",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 28
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "matchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 34
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "Matching",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 26
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_Match",
+        "references": [],
+        "type": "fflib_Match"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "expectedSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "retval",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 93,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "targetMatchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "matchersSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "argValue",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "methodArg",
+            "references": [],
+            "type": "fflib_MethodArgValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "targetMatchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "matcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "o3",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "o3",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "o4",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "o3",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "o3",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "o4",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 219
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "o3",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "o1",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "o2",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "o3",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "o4",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "connectiveExpression",
+            "references": [],
+            "type": "Connective"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 104,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "ignoredMatcherObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 294
+            },
+            "modifiers": [],
+            "name": "innerMatchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 296
+            },
+            "modifiers": [],
+            "name": "innerMatcherCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "innerMatcher",
+            "references": [],
+            "type": "fflib_IMatcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 331
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 351
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 371
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 381
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 391
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 401
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 421
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 431
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 441
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 451
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 461
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 606
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 617
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 617
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 627
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 649
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 649
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 662
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 662
+            },
+            "modifiers": [],
+            "name": "inclusiveFrom",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 662
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 662
+            },
+            "modifiers": [],
+            "name": "inclusiveTo",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 672
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 683
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 683
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 693
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 704
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 704
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 715
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 715
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "fromDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "inclusiveFrom",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "toDate",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 108,
+                "line": 728
+            },
+            "modifiers": [],
+            "name": "inclusiveTo",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 739
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 739
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 752
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 752
+            },
+            "modifiers": [],
+            "name": "inclusiveLower",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 752
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 752
+            },
+            "modifiers": [],
+            "name": "inclusiveUpper",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 762
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 773
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 773
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 783
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 794
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 794
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 805
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 805
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 818
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 818
+            },
+            "modifiers": [],
+            "name": "inclusiveLower",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 818
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 818
+            },
+            "modifiers": [],
+            "name": "inclusiveUpper",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 828
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 839
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 839
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 849
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 860
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 860
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 870
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "FieldSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 881
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 881
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 894
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 894
+            },
+            "modifiers": [],
+            "name": "inclusiveLower",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 894
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 101,
+                "line": 894
+            },
+            "modifiers": [],
+            "name": "inclusiveUpper",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 904
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 915
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 915
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 925
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 936
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 936
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 964
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 984
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 984
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 997
+            },
+            "modifiers": [],
+            "name": "lower",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 997
+            },
+            "modifiers": [],
+            "name": "inclusiveLower",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 997
+            },
+            "modifiers": [],
+            "name": "upper",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 997
+            },
+            "modifiers": [],
+            "name": "inclusiveUpper",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 1007
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 1018
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 1018
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 1028
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 1039
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Long"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 1039
+            },
+            "modifiers": [],
+            "name": "inclusive",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 1049
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 1058
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 1067
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 1076
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 1086
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 1096
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 1124
+            },
+            "modifiers": [],
+            "name": "regEx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 1134
+            },
+            "modifiers": [],
+            "name": "toMatch",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

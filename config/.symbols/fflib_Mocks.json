@@ -1,0 +1,324 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirpAAC",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Mockfflib_MyList",
+                    "parameters": [
+                        {
+                            "name": "mocks",
+                            "type": "fflib_ApexMocks"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IList"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "add",
+                    "parameters": [
+                        {
+                            "name": "value",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "add",
+                    "parameters": [
+                        {
+                            "name": "value",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 24
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "get",
+                    "parameters": [
+                        {
+                            "name": "index",
+                            "type": "Integer"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "get2",
+                    "parameters": [
+                        {
+                            "name": "index",
+                            "type": "Integer"
+                        },
+                        {
+                            "name": "value",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 34
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clear",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isEmpty",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 44
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "set",
+                    "parameters": [
+                        {
+                            "name": "index",
+                            "type": "Integer"
+                        },
+                        {
+                            "name": "value",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "Mockfflib_MyList",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 5
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Mockfflib_MyList",
+                "references": [],
+                "type": "Mockfflib_MyList"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 9
+                    },
+                    "modifiers": [],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 14
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 19
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 24
+                    },
+                    "modifiers": [],
+                    "name": "index",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 29
+                    },
+                    "modifiers": [],
+                    "name": "index",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 29
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 44
+                    },
+                    "modifiers": [],
+                    "name": "index",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 44
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003JirpAAC",
+    "methods": [],
+    "name": "fflib_Mocks",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "fflib_Mocks",
+        "references": [],
+        "type": "fflib_Mocks"
+    },
+    "variables": []
+}

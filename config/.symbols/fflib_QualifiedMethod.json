@@ -1,0 +1,226 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 32
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_QualifiedMethod",
+            "parameters": [
+                {
+                    "name": "typeName",
+                    "type": "String"
+                },
+                {
+                    "name": "methodName",
+                    "type": "String"
+                },
+                {
+                    "name": "methodArgTypes",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003JirrAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirrAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "equals",
+            "parameters": [
+                {
+                    "name": "other",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 63
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hashCode",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 79
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "toString",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "fflib_QualifiedMethod",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 28
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "typeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 29
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "methodName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 30
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "methodArgTypes",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 26
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_QualifiedMethod",
+        "references": [],
+        "type": "fflib_QualifiedMethod"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "typeName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "methodName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "methodArgTypes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "other",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "that",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "prime",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

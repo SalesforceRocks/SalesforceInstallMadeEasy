@@ -1,0 +1,102 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 31
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_MatchersReturnValue",
+            "parameters": [
+                {
+                    "name": "matchers",
+                    "type": "LIST"
+                },
+                {
+                    "name": "returnValue",
+                    "type": "fflib_MethodReturnValue"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003JirjAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirjAAC",
+    "methods": [],
+    "name": "fflib_MatchersReturnValue",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 28
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "matchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 29
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "returnValue",
+            "references": [],
+            "type": "fflib_MethodReturnValue"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 26
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_MatchersReturnValue",
+        "references": [],
+        "type": "fflib_MatchersReturnValue"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "matchers",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 90,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "returnValue",
+            "references": [],
+            "type": "fflib_MethodReturnValue"
+        }
+    ]
+}

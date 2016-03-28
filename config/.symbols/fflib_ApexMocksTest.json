@@ -1,0 +1,1772 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JiraAAC",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "MyException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 722
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "MyException",
+                "references": [],
+                "type": "MyException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 728
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "isOdd",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 726
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "isOdd",
+                "references": [],
+                "type": "isOdd"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 728
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_IMatcher"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 736
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "matches",
+                    "parameters": [
+                        {
+                            "name": "arg",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "isEven",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 734
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "isEven",
+                "references": [],
+                "type": "isEven"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 736
+                    },
+                    "modifiers": [],
+                    "name": "arg",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003JiraAAC",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubMultipleCallsWithMatchersShouldReturnExpectedValues",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 49
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenVerifyMultipleCallsWithMatchersShouldReturnCorrectMethodCallCounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 66
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubExceptionWithMatchersShouldThrowException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 92
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenVerifyWithCombinedMatchersShouldReturnCorrectMethodCallCounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 136
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubCustomMatchersCanBeUsed",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 163
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenVerifyCustomMatchersCanBeUsed",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 182
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubWithMatcherAndNonMatcherArgumentsShouldThrowException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 207
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenVerifyWithMatcherAndNonMatcherArgumentsShouldThrowException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 233
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubSameMethodWithMatchersAndNonMatchersShouldStubInOrder",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 255
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubExceptionSameMethodWithMatchersAndNonMatchersShouldStubInOrder",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 294
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubSingleCallWithSingleArgumentShouldReturnStubbedValue",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 312
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubSingleCallWithNullReturnValueItShouldReturnNull",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 330
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubMultipleCallsWithSingleArgumentShouldReturnStubbedValues",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 353
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubSameCallWithDifferentArgumentValueShouldReturnLastStubbedValue",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 372
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubCallWithNoArgumentsShouldReturnStubbedValue",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 390
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifySingleMethodCallWithNoArguments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 404
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifySingleMethodCallWithSingleArgument",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 418
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifyMultipleMethodCallsWithSameSingleArgument",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 433
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifyMultipleMethodCallsWithDifferentSingleArgument",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 449
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifyMethodCallsWithSameNameButDifferentArgumentTypes",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 469
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifyMethodNotCalled",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 484
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "stubAndVerifyMethodCallsWithNoArguments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 505
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubExceptionTheExceptionShouldBeThrown",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 530
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubVoidMethodWithExceptionThenExceptionShouldBeThrown",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 555
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubMultipleVoidMethodsWithExceptionsThenExceptionsShouldBeThrown",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 594
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubVoidMethodWithExceptionAndCallMethodTwiceThenExceptionShouldBeThrownTwice",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 634
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifyMethodCallWhenNoCallsBeenMadeForType",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 645
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "verifySingleMethodCallWithMultipleArguments",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 660
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubMultipleCallsWithMultipleArgumentShouldReturnStubbedValues",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 689
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenStubNullConcreteArgValueCorrectValueIsReturned",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 709
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "whenSetDoThrowWhenExceptionValueIsSet",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_ApexMocksTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 27
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "fflib_ApexMocksTest",
+        "references": [],
+        "type": "fflib_ApexMocksTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "actualValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 139
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 140
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "s1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "s2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "s3",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "s4",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "s5",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "expectedError",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "expectedError",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 258
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 297
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 305
+            },
+            "modifiers": [],
+            "name": "actualValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 315
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 316
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 323
+            },
+            "modifiers": [],
+            "name": "actualValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 333
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "actualValueArg0",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 343
+            },
+            "modifiers": [],
+            "name": "actualValueArg1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "actualValueArg2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 356
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 365
+            },
+            "modifiers": [],
+            "name": "actualValue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 375
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 376
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 383
+            },
+            "modifiers": [],
+            "name": "actualValue",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 393
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 407
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 408
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 421
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 422
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 436
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 437
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 452
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 453
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 472
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 473
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 487
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 488
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 497
+            },
+            "modifiers": [],
+            "name": "actualValue",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 508
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 509
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 533
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 534
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 558
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 559
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 597
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 598
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 637
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 638
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 648
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 649
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 663
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 664
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 674
+            },
+            "modifiers": [],
+            "name": "actualValueArg0",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 675
+            },
+            "modifiers": [],
+            "name": "actualValueArg1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 676
+            },
+            "modifiers": [],
+            "name": "actualValueArg2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 677
+            },
+            "modifiers": [],
+            "name": "actualValueArg3",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 678
+            },
+            "modifiers": [],
+            "name": "actualValueArg4",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 692
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 693
+            },
+            "modifiers": [],
+            "name": "mockList",
+            "references": [],
+            "type": "IList"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 695
+            },
+            "modifiers": [],
+            "name": "expected",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 702
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 712
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "MyException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 713
+            },
+            "modifiers": [],
+            "name": "mocks",
+            "references": [],
+            "type": "fflib_ApexMocks"
+        }
+    ]
+}

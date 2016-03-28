@@ -1,0 +1,176 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirdAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirdAAC",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "itShouldGenerateValidIDs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_IDGeneratorTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 27
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "fflib_IDGeneratorTest",
+        "references": [],
+        "type": "fflib_IDGeneratorTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "id1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "id2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "id3",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "id4",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "id5",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "id6",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "id7",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "id8",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "id9",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "id10",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "id11",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

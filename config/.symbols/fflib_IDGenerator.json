@@ -1,0 +1,114 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JircAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JircAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 34
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "generate",
+            "parameters": [
+                {
+                    "name": "sobjectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        }
+    ],
+    "name": "fflib_IDGenerator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 28
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "fakeIdCount",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 29
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "ID_PATTERN",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 26
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_IDGenerator",
+        "references": [],
+        "type": "fflib_IDGenerator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "sobjectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "keyPrefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "fakeIdPrefix",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

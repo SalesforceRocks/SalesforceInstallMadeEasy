@@ -1,0 +1,502 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirqAAC",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "IList",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 29
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IList",
+                "references": [],
+                "type": "IList"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "IList"
+    ],
+    "key": "01p58000003JirqAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 40
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "add",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "add",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "get",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 53
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "clear",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 57
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isEmpty",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 62
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "set",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "Integer"
+                },
+                {
+                    "name": "value",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 66
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "get2",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "Integer"
+                },
+                {
+                    "name": "value",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 31
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "add",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 32
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "add",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 33
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "get",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 34
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "get2",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "Integer"
+                },
+                {
+                    "name": "value",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 35
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "clear",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 36
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "isEmpty",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 37
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "set",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "Integer"
+                },
+                {
+                    "name": "value",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_MyList",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 27
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "fflib_MyList",
+        "references": [],
+        "type": "fflib_MyList"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "index",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "Object"
+        }
+    ]
+}

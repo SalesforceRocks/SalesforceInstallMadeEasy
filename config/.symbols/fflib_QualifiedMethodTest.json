@@ -1,0 +1,230 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003JirsAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003JirsAAC",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "equalsReturnsExpectedResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 70
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "hashCodeReturnsExpectedResults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 21,
+                "line": 110
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "toStringReturnsExpectedResult",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_QualifiedMethodTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 27
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "fflib_QualifiedMethodTest",
+        "references": [],
+        "type": "fflib_QualifiedMethodTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "qm1",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "qm2",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "qm3",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "qm4",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "qm5",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "qm6",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "qm1",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "qm2",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "qm3",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "qm4",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "qm5",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "qm6",
+            "references": [],
+            "type": "fflib_QualifiedMethod"
+        }
+    ]
+}
