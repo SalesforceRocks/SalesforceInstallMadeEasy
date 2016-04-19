@@ -1,0 +1,12 @@
+<!--
+Renders the Remote Site Setting button if all of the following are true:
+- User has permission to insert a Remote Site setting (in other words has the Modify All Data permission)
+- The Remote Site Setting is not present yet
+If the user doesn't have the permission a descriptive error message is shown.
+
+Pressing the Remote Site Setting button inserts a Remote Site Setting so the Metadata API can be called from the org in a safe way
+-->
+<apex:component >
+	<apex:outputText rendered="{!}"/>
+	<apex:commandButton rendered="{!}"/>
+</apex:component>

@@ -1,0 +1,425 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYw7AAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003zYw7AAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 22
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerNew",
+            "parameters": [
+                {
+                    "name": "record",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 28
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerNew",
+            "parameters": [
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 37
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerNew",
+            "parameters": [
+                {
+                    "name": "record",
+                    "type": "SObject"
+                },
+                {
+                    "name": "relatedToParentField",
+                    "type": "SObjectField"
+                },
+                {
+                    "name": "relatedToParentRecord",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 46
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerRelationship",
+            "parameters": [
+                {
+                    "name": "record",
+                    "type": "SObject"
+                },
+                {
+                    "name": "relatedToField",
+                    "type": "SObjectField"
+                },
+                {
+                    "name": "relatedTo",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 52
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerDirty",
+            "parameters": [
+                {
+                    "name": "record",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 58
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerDirty",
+            "parameters": [
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 64
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerDeleted",
+            "parameters": [
+                {
+                    "name": "record",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 70
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerDeleted",
+            "parameters": [
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 74
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "commitWork",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 80
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerWork",
+            "parameters": [
+                {
+                    "name": "work",
+                    "type": "IDoWork"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 86
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "registerEmail",
+            "parameters": [
+                {
+                    "name": "email",
+                    "type": "Email"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_ISObjectUnitOfWork",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 15
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_ISObjectUnitOfWork",
+        "references": [],
+        "type": "fflib_ISObjectUnitOfWork"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "relatedToParentField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "relatedToParentRecord",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "relatedToField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "relatedTo",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "work",
+            "references": [],
+            "type": "IDoWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "email",
+            "references": [],
+            "type": "Email"
+        }
+    ]
+}

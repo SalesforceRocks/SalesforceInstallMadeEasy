@@ -1,0 +1,77 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYw6AAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003zYw6AAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 17
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "sObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 22
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "selectSObjectsById",
+            "parameters": [
+                {
+                    "name": "idSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "fflib_ISObjectSelector",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 12
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_ISObjectSelector",
+        "references": [],
+        "type": "fflib_ISObjectSelector"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        }
+    ]
+}

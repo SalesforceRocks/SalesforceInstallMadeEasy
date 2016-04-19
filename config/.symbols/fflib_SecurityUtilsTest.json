@@ -1,0 +1,337 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYwKAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003zYwKAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 29
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupTestUser",
+            "parameters": [
+                {
+                    "name": "profileName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 55
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "readonly_field_access",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 98
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "readonly_object_access",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 152
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "readonly_objectAndField_access",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 237
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "sysadmin_objectAndField_access",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_SecurityUtilsTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 28
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "fflib_SecurityUtilsTest",
+        "references": [],
+        "type": "fflib_SecurityUtilsTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "profileName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "uniqueness",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Profile"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "ex",
+            "references": [],
+            "type": "SecurityException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        }
+    ]
+}

@@ -1,0 +1,1072 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYwGAAU",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 244
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Testfflib_SObjectSelector",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 249
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Testfflib_SObjectSelector",
+                    "parameters": [
+                        {
+                            "name": "includeFieldSetFields",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "enforceCRUD",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "enforceFLS",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "sortSelectFields",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 36,
+                        "line": 254
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getSObjectFieldList",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 264
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getSObjectType",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "SObjectType",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 269
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "getOrderBy",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "Testfflib_SObjectSelector",
+            "namespace": null,
+            "parentClass": "fflib_SObjectSelector",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 242
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "Testfflib_SObjectSelector",
+                "references": [],
+                "type": "Testfflib_SObjectSelector"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 249
+                    },
+                    "modifiers": [],
+                    "name": "includeFieldSetFields",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 75,
+                        "line": 249
+                    },
+                    "modifiers": [],
+                    "name": "enforceCRUD",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 96,
+                        "line": 249
+                    },
+                    "modifiers": [],
+                    "name": "enforceFLS",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 116,
+                        "line": 249
+                    },
+                    "modifiers": [],
+                    "name": "sortSelectFields",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003zYwGAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 31
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetFieldListString",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetSObjectName",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 47
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSelectSObjectsById",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testQueryLocatorById",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 102
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAssertIsAccessible",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 131
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCRUDOff",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 159
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSOQL",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 171
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDefaultConfig",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 188
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "assertFieldListString",
+            "parameters": [
+                {
+                    "name": "fieldListString",
+                    "type": "String"
+                },
+                {
+                    "name": "prefix",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 210
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testWithoutSorting",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 234
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "assertEqualsSelectFields",
+            "parameters": [
+                {
+                    "name": "expectedSelectFields",
+                    "type": "String"
+                },
+                {
+                    "name": "actualSelectFields",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 278
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createChatterExternalUser",
+            "parameters": [],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        }
+    ],
+    "name": "fflib_SObjectSelectorTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 28
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "fflib_SObjectSelectorTest",
+        "references": [],
+        "type": "fflib_SObjectSelectorTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "fieldListString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "relatedFieldListString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "accountList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "item",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 75
+            },
+            "modifiers": [],
+            "name": "accountList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "item",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "QueryLocator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "iteratorResult",
+            "references": [],
+            "type": "Iterator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "account",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "accountList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "item",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "accountList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "item",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "soql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "m",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 167
+            },
+            "modifiers": [],
+            "name": "fieldListString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "fieldListString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "relatedFieldListString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "fieldListString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "prefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "prefixString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "fieldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "fieldSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "expected",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "selector",
+            "references": [],
+            "type": "Testfflib_SObjectSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "qf",
+            "references": [],
+            "type": "fflib_QueryFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "expectedSelectFields",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 223
+            },
+            "modifiers": [],
+            "name": "soql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "soqlPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "soqlMatcher",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "actualSelectFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "expectedSelectFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "actualSelectFields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "expected",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "actual",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "testProfiles",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 286
+            },
+            "modifiers": [],
+            "name": "testUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        }
+    ]
+}

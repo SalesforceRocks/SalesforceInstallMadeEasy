@@ -1,11 +1,11 @@
 {
     "projectName": "InstallMadeEasy",
     "username": "jbranderhorst@dev1.installmadeeasy.com",
-    "password": "T5v16ngWZzOn",
+    "password": "T5v16ngWZzOnNzNcDtA3IDvkywhAvWjahadTD",
     "id": "2f002610-db00-11e5-8151-539a1852a2cf",
     "namespace": "",
     "environment": "production",
-    "loginUrl": "https://login.salesforce.com/",
+    "loginUrl": "",
     "workspace": "/Users/jbranderhorst/documents/Mavensmate Workspace",
     "subscription": [
         "ActionLinkGroupTemplate",

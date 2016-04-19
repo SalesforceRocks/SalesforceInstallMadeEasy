@@ -1,0 +1,1357 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 77
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "fflib_SObjectDescribe",
+            "parameters": [
+                {
+                    "name": "token",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003zYwAAAU",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 247
+                    },
+                    "modifiers": [
+                        "protected"
+                    ],
+                    "name": "NamespacedAttributeMap",
+                    "parameters": [
+                        {
+                            "name": "values",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 253
+                    },
+                    "modifiers": [
+                        "protected"
+                    ],
+                    "name": "NamespacedAttributeMap",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 259
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "protected"
+                    ],
+                    "name": "getObject",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Object",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 265
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "protected"
+                    ],
+                    "name": "getObject",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        },
+                        {
+                            "name": "implyNamespace",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Object",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 277
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "public"
+                    ],
+                    "name": "containsKey",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 280
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "public"
+                    ],
+                    "name": "containsKey",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        },
+                        {
+                            "name": "implyNamespace",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 289
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "public"
+                    ],
+                    "name": "size",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Integer",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 296
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "public"
+                    ],
+                    "name": "keySet",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Set",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 299
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "public"
+                    ],
+                    "name": "keySet",
+                    "parameters": [
+                        {
+                            "name": "implyNamespace",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Set",
+                    "type": null
+                }
+            ],
+            "name": "NamespacedAttributeMap",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 20,
+                        "line": 244
+                    },
+                    "modifiers": [
+                        "protected"
+                    ],
+                    "name": "currentNamespace",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 245
+                    },
+                    "modifiers": [
+                        "protected"
+                    ],
+                    "name": "values",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 25,
+                    "line": 242
+                },
+                "modifiers": [
+                    "private",
+                    "abstract"
+                ],
+                "name": "NamespacedAttributeMap",
+                "references": [],
+                "type": "NamespacedAttributeMap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 247
+                    },
+                    "modifiers": [],
+                    "name": "values",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 259
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 265
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 265
+                    },
+                    "modifiers": [],
+                    "name": "implyNamespace",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 268
+                    },
+                    "modifiers": [],
+                    "name": "preferredValue",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 277
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 280
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 280
+                    },
+                    "modifiers": [],
+                    "name": "implyNamespace",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 283
+                    },
+                    "modifiers": [],
+                    "name": "preferredValue",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 299
+                    },
+                    "modifiers": [],
+                    "name": "implyNamespace",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 301
+                    },
+                    "modifiers": [],
+                    "name": "result",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 302
+                    },
+                    "modifiers": [],
+                    "name": "key",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 11,
+                        "line": 320
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "FieldsMap",
+                    "parameters": [
+                        {
+                            "name": "values",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 324
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "get",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "SObjectField",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 327
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "get",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        },
+                        {
+                            "name": "implyNamespace",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "SObjectField",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 36,
+                        "line": 330
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "values",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                }
+            ],
+            "name": "FieldsMap",
+            "namespace": null,
+            "parentClass": "NamespacedAttributeMap",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 317
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "FieldsMap",
+                "references": [],
+                "type": "FieldsMap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 320
+                    },
+                    "modifiers": [],
+                    "name": "values",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 324
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 327
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 327
+                    },
+                    "modifiers": [],
+                    "name": "implyNamespace",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 11,
+                        "line": 340
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "GlobalDescribeMap",
+                    "parameters": [
+                        {
+                            "name": "values",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 344
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "get",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "SObjectType",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 347
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "get",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        },
+                        {
+                            "name": "implyNamespace",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "SObjectType",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 350
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "values",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                }
+            ],
+            "name": "GlobalDescribeMap",
+            "namespace": null,
+            "parentClass": "NamespacedAttributeMap",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 338
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GlobalDescribeMap",
+                "references": [],
+                "type": "GlobalDescribeMap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 60,
+                        "line": 340
+                    },
+                    "modifiers": [],
+                    "name": "values",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 344
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 347
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 347
+                    },
+                    "modifiers": [],
+                    "name": "implyNamespace",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DescribeException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 24,
+                    "line": 356
+                },
+                "modifiers": [
+                    "public",
+                    "abstract"
+                ],
+                "name": "DescribeException",
+                "references": [],
+                "type": "DescribeException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DuplicateDescribeException",
+            "namespace": null,
+            "parentClass": "DescribeException",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 357
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DuplicateDescribeException",
+                "references": [],
+                "type": "DuplicateDescribeException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "InvalidDescribeException",
+            "namespace": null,
+            "parentClass": "DescribeException",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 358
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "InvalidDescribeException",
+                "references": [],
+                "type": "InvalidDescribeException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003zYwAAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 90
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 96
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getField",
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "SObjectField",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 104
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getField",
+            "parameters": [
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "implyNamespace",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "SObjectField",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 120
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getNameField",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectField",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 136
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDescribe",
+            "parameters": [],
+            "references": [],
+            "returnType": "DescribeSObjectResult",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 143
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFieldsMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 146
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "FieldsMap",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 149
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFieldSetsMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 184
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDescribe",
+            "parameters": [
+                {
+                    "name": "sObjectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDescribe",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 197
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDescribe",
+            "parameters": [
+                {
+                    "name": "token",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDescribe",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 205
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDescribe",
+            "parameters": [
+                {
+                    "name": "nativeDescribe",
+                    "type": "DescribeSObjectResult"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDescribe",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 213
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getDescribe",
+            "parameters": [
+                {
+                    "name": "instance",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDescribe",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 220
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRawGlobalDescribe",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 223
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getGlobalDescribe",
+            "parameters": [],
+            "references": [],
+            "returnType": "GlobalDescribeMap",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 228
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "flushCache",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_SObjectDescribe",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 41
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 42
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "nameField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 43
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "describe",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 51
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "fields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 59
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "fieldSets",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 67
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "wrappedFields",
+            "references": [],
+            "type": "FieldsMap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 155
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "rawGlobalDescribe",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 163
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "wrappedGlobalDescribe",
+            "references": [],
+            "type": "GlobalDescribeMap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 177
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "instanceCache",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 39
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_SObjectDescribe",
+        "references": [],
+        "type": "fflib_SObjectDescribe"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "implyNamespace",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "sObjectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 200
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 205
+            },
+            "modifiers": [],
+            "name": "nativeDescribe",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "instance",
+            "references": [],
+            "type": "SObject"
+        }
+    ]
+}

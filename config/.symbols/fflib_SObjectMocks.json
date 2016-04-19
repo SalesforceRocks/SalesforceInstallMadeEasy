@@ -1,0 +1,725 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYwEAAU",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectDomain",
+                    "parameters": [
+                        {
+                            "name": "mocks",
+                            "type": "fflib_ApexMocks"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_ISObjectDomain"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sObjectType",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "SObjectType",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getRecords",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                }
+            ],
+            "name": "SObjectDomain",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 5
+                },
+                "modifiers": [
+                    "virtual",
+                    "public"
+                ],
+                "name": "SObjectDomain",
+                "references": [],
+                "type": "SObjectDomain"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 9
+                    },
+                    "modifiers": [],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectSelector",
+                    "parameters": [
+                        {
+                            "name": "mocks",
+                            "type": "fflib_ApexMocks"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_ISObjectSelector"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 34
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sObjectType",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "SObjectType",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selectSObjectsById",
+                    "parameters": [
+                        {
+                            "name": "idSet",
+                            "type": "Set"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                }
+            ],
+            "name": "SObjectSelector",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 27
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 25
+                },
+                "modifiers": [
+                    "virtual",
+                    "public"
+                ],
+                "name": "SObjectSelector",
+                "references": [],
+                "type": "SObjectSelector"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 29
+                    },
+                    "modifiers": [],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 51,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "idSet",
+                    "references": [],
+                    "type": "Set"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 49
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SObjectUnitOfWork",
+                    "parameters": [
+                        {
+                            "name": "mocks",
+                            "type": "fflib_ApexMocks"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_ISObjectUnitOfWork"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 54
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerNew",
+                    "parameters": [
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 59
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerNew",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 64
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerNew",
+                    "parameters": [
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        },
+                        {
+                            "name": "relatedToParentField",
+                            "type": "SObjectField"
+                        },
+                        {
+                            "name": "relatedToParentRecord",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 69
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerRelationship",
+                    "parameters": [
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        },
+                        {
+                            "name": "relatedToField",
+                            "type": "SObjectField"
+                        },
+                        {
+                            "name": "relatedTo",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 74
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerDirty",
+                    "parameters": [
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 79
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerDirty",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 84
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerDeleted",
+                    "parameters": [
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 89
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerDeleted",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 94
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "commitWork",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 99
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerWork",
+                    "parameters": [
+                        {
+                            "name": "work",
+                            "type": "IDoWork"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 104
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "registerEmail",
+                    "parameters": [
+                        {
+                            "name": "email",
+                            "type": "Email"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "SObjectUnitOfWork",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 47
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 45
+                },
+                "modifiers": [
+                    "virtual",
+                    "public"
+                ],
+                "name": "SObjectUnitOfWork",
+                "references": [],
+                "type": "SObjectUnitOfWork"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 49
+                    },
+                    "modifiers": [],
+                    "name": "mocks",
+                    "references": [],
+                    "type": "fflib_ApexMocks"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 54
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 59
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 64
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 63,
+                        "line": 64
+                    },
+                    "modifiers": [],
+                    "name": "relatedToParentField",
+                    "references": [],
+                    "type": "SObjectField"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 93,
+                        "line": 64
+                    },
+                    "modifiers": [],
+                    "name": "relatedToParentRecord",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 69
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 72,
+                        "line": 69
+                    },
+                    "modifiers": [],
+                    "name": "relatedToField",
+                    "references": [],
+                    "type": "SObjectField"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 96,
+                        "line": 69
+                    },
+                    "modifiers": [],
+                    "name": "relatedTo",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 74
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 79
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 84
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 89
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 60,
+                        "line": 99
+                    },
+                    "modifiers": [],
+                    "name": "work",
+                    "references": [],
+                    "type": "IDoWork"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 104
+                    },
+                    "modifiers": [],
+                    "name": "email",
+                    "references": [],
+                    "type": "Email"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003zYwEAAU",
+    "methods": [],
+    "name": "fflib_SObjectMocks",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "fflib_SObjectMocks",
+        "references": [],
+        "type": "fflib_SObjectMocks"
+    },
+    "variables": []
+}

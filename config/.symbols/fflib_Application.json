@@ -1,0 +1,1038 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYw3AAE",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 47
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "UnitOfWorkFactory",
+                    "parameters": [
+                        {
+                            "name": "objectTypes",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "fflib_ISObjectUnitOfWork",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 73
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [
+                        {
+                            "name": "objectTypes",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_ISObjectUnitOfWork",
+                    "type": null
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 16,
+                        "line": 82
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "setMock",
+                    "parameters": [
+                        {
+                            "name": "mockUow",
+                            "type": "fflib_ISObjectUnitOfWork"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "UnitOfWorkFactory",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_objectTypes",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 36,
+                        "line": 40
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_mockUow",
+                    "references": [],
+                    "type": "fflib_ISObjectUnitOfWork"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 37
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "UnitOfWorkFactory",
+                "references": [],
+                "type": "UnitOfWorkFactory"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 46,
+                        "line": 47
+                    },
+                    "modifiers": [],
+                    "name": "objectTypes",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 65,
+                        "line": 73
+                    },
+                    "modifiers": [],
+                    "name": "objectTypes",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 82
+                    },
+                    "modifiers": [],
+                    "name": "mockUow",
+                    "references": [],
+                    "type": "fflib_ISObjectUnitOfWork"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 105
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ServiceFactory",
+                    "parameters": [
+                        {
+                            "name": "serviceInterfaceTypeByServiceImplType",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 119
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [
+                        {
+                            "name": "serviceInterfaceType",
+                            "type": "Type"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Object",
+                    "type": null
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 16,
+                        "line": 133
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "setMock",
+                    "parameters": [
+                        {
+                            "name": "serviceInterfaceType",
+                            "type": "Type"
+                        },
+                        {
+                            "name": "serviceImpl",
+                            "type": "Object"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "ServiceFactory",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 93
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_serviceInterfaceTypeByServiceImplType",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 95
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_serviceInterfaceTypeByMockService",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 91
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ServiceFactory",
+                "references": [],
+                "type": "ServiceFactory"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 105
+                    },
+                    "modifiers": [],
+                    "name": "serviceInterfaceTypeByServiceImplType",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 119
+                    },
+                    "modifiers": [],
+                    "name": "serviceInterfaceType",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 126
+                    },
+                    "modifiers": [],
+                    "name": "serviceImpl",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 133
+                    },
+                    "modifiers": [],
+                    "name": "serviceInterfaceType",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 133
+                    },
+                    "modifiers": [],
+                    "name": "serviceImpl",
+                    "references": [],
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 154
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SelectorFactory",
+                    "parameters": [
+                        {
+                            "name": "sObjectBySelectorType",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 166
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [
+                        {
+                            "name": "sObjectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_ISObjectSelector",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 189
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selectById",
+                    "parameters": [
+                        {
+                            "name": "recordIds",
+                            "type": "Set"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 217
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selectByRelationship",
+                    "parameters": [
+                        {
+                            "name": "relatedRecords",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "relationshipField",
+                            "type": "SObjectField"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 16,
+                        "line": 230
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "setMock",
+                    "parameters": [
+                        {
+                            "name": "selectorInstance",
+                            "type": "fflib_ISObjectSelector"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "SelectorFactory",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 144
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_sObjectBySelectorType",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 145
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_sObjectByMockSelector",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 142
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SelectorFactory",
+                "references": [],
+                "type": "SelectorFactory"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 154
+                    },
+                    "modifiers": [],
+                    "name": "sObjectBySelectorType",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 166
+                    },
+                    "modifiers": [],
+                    "name": "sObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 173
+                    },
+                    "modifiers": [],
+                    "name": "selectorClass",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 189
+                    },
+                    "modifiers": [],
+                    "name": "recordIds",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 196
+                    },
+                    "modifiers": [],
+                    "name": "domainSObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 197
+                    },
+                    "modifiers": [],
+                    "name": "recordId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 217
+                    },
+                    "modifiers": [],
+                    "name": "relatedRecords",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 88,
+                        "line": 217
+                    },
+                    "modifiers": [],
+                    "name": "relationshipField",
+                    "references": [],
+                    "type": "SObjectField"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 219
+                    },
+                    "modifiers": [],
+                    "name": "relatedIds",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 220
+                    },
+                    "modifiers": [],
+                    "name": "relatedRecord",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 8,
+                        "line": 222
+                    },
+                    "modifiers": [],
+                    "name": "relatedId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 230
+                    },
+                    "modifiers": [],
+                    "name": "selectorInstance",
+                    "references": [],
+                    "type": "fflib_ISObjectSelector"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 256
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DomainFactory",
+                    "parameters": [
+                        {
+                            "name": "selectorFactory",
+                            "type": "SelectorFactory"
+                        },
+                        {
+                            "name": "sObjectByDomainConstructorType",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 272
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [
+                        {
+                            "name": "recordIds",
+                            "type": "Set"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_ISObjectDomain",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 286
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_ISObjectDomain",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 318
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "newInstance",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "domainSObjectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_ISObjectDomain",
+                    "type": null
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 16,
+                        "line": 339
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "setMock",
+                    "parameters": [
+                        {
+                            "name": "mockDomain",
+                            "type": "fflib_ISObjectDomain"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "DomainFactory",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 241
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_selectorFactory",
+                    "references": [],
+                    "type": "SelectorFactory"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 243
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_sObjectByDomainConstructorType",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 50,
+                        "line": 245
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_sObjectByMockDomain",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 239
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DomainFactory",
+                "references": [],
+                "type": "DomainFactory"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 256
+                    },
+                    "modifiers": [],
+                    "name": "selectorFactory",
+                    "references": [],
+                    "type": "SelectorFactory"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 257
+                    },
+                    "modifiers": [],
+                    "name": "sObjectByDomainConstructorType",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 51,
+                        "line": 272
+                    },
+                    "modifiers": [],
+                    "name": "recordIds",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 286
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 288
+                    },
+                    "modifiers": [],
+                    "name": "domainSObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 297
+                    },
+                    "modifiers": [],
+                    "name": "domainConstructorClass",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 302
+                    },
+                    "modifiers": [],
+                    "name": "domainConstructor",
+                    "references": [],
+                    "type": "IConstructable"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 318
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 78,
+                        "line": 318
+                    },
+                    "modifiers": [],
+                    "name": "domainSObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 328
+                    },
+                    "modifiers": [],
+                    "name": "domainConstructorClass",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 333
+                    },
+                    "modifiers": [],
+                    "name": "domainConstructor",
+                    "references": [],
+                    "type": "IConstructable2"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 339
+                    },
+                    "modifiers": [],
+                    "name": "mockDomain",
+                    "references": [],
+                    "type": "fflib_ISObjectDomain"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ApplicationException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 345
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ApplicationException",
+                "references": [],
+                "type": "ApplicationException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DeveloperException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 350
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DeveloperException",
+                "references": [],
+                "type": "DeveloperException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003zYw3AAE",
+    "methods": [],
+    "name": "fflib_Application",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 32
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_Application",
+        "references": [],
+        "type": "fflib_Application"
+    },
+    "variables": []
+}

@@ -1,0 +1,386 @@
+{
+    "constructors": [
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 10,
+                "line": 23
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "PermissionSets",
+            "parameters": [
+                {
+                    "name": "permissionSetSelector",
+                    "type": "IPermissionSetSelector"
+                },
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 32
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PermissionSets",
+            "parameters": [
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p5800000416OhAAI",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IConstructable2"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 67
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "construct",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_SObjectDomain",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 72
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "construct",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "sObjectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_SObjectDomain",
+                    "type": null
+                }
+            ],
+            "name": "Constructor",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 65
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Constructor",
+                "references": [],
+                "type": "Constructor"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 67
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 72
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 79,
+                        "line": 72
+                    },
+                    "modifiers": [],
+                    "name": "sObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p5800000416OhAAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 28
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getPermissionSetWithPermission",
+            "parameters": [
+                {
+                    "name": "permissionName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 37
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "onValidate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 44
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "onValidate",
+            "parameters": [
+                {
+                    "name": "existingRecords",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 51
+            },
+            "modifiers": [
+                "public",
+                "override"
+            ],
+            "name": "onBeforeInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 58
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "someMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PermissionSets",
+    "namespace": null,
+    "parentClass": "fflib_SObjectDomain",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 17
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "permissionSetSelector",
+            "references": [],
+            "type": "IPermissionSetSelector"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 15
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PermissionSets",
+        "references": [],
+        "type": "PermissionSets"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "permissionSetSelector",
+            "references": [],
+            "type": "IPermissionSetSelector"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 113,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "permissionName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "PermissionSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "existingRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "PermissionSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "PermissionSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "PermissionSet"
+        }
+    ]
+}

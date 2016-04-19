@@ -83,4 +83,12 @@
         <shortDescription>fflib_security_error_object_not_updateable</shortDescription>
         <value>You do not have permission to update {0}</value>
     </labels>
+    <labels>
+        <fullName>permissionset_error_no_permissionname_supplied</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>permissionset_error_no_permissionname_supplied</shortDescription>
+        <value>No permission set name has been supplied</value>
+    </labels>
 </CustomLabels>

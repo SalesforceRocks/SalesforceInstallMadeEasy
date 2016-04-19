@@ -1,0 +1,563 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYwBAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003zYwBAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "getDescribe_badInput",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 53
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "NamespacedAttributeMap_implementations",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 71
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "FieldsMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 96
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "GlobalDescribeMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 114
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "getAccountDescribes",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 123
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "simpleAccountFieldDescribe",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 143
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "simpleAccountFieldSetDescribe",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 18,
+                "line": 162
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "simpleAccountGetNameField",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 169
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "flushCache",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 14,
+                "line": 177
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "rawGlobalDescribeCheck",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_SObjectDescribeTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 32
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "fflib_SObjectDescribeTest",
+        "references": [],
+        "type": "fflib_SObjectDescribeTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "nullStr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "nullType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "nullDescribe",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "nullSObject",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "gdm",
+            "references": [],
+            "type": "GlobalDescribeMap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "accountObjType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "acccountDescribe",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "FieldsMap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "fakeNamespace",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "fakeFieldData",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "FieldsMap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "fakeNamespace",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "fakeFieldData",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "gdm",
+            "references": [],
+            "type": "GlobalDescribeMap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 115
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 116
+            },
+            "modifiers": [],
+            "name": "d2",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "d3",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 125
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "nameField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "d2",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "systemGd",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "cachedGd",
+            "references": [],
+            "type": "Map"
+        }
+    ]
+}

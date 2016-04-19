@@ -1,0 +1,418 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 16
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PermissionSetSelector",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003zYvjAAE",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "fflib_ISObjectSelector"
+            ],
+            "key": null,
+            "methods": [],
+            "name": "IPermissionSetSelector",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 11
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IPermissionSetSelector",
+                "references": [],
+                "type": "IPermissionSetSelector"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "IPermissionSetSelector"
+    ],
+    "key": "01p58000003zYvjAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 22
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSObjectFieldList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 36
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectById",
+            "parameters": [
+                {
+                    "name": "idSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 54
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectByPermissionNames",
+            "parameters": [
+                {
+                    "name": "permissionNames",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 80
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectByPermissionNameNoDb",
+            "parameters": [
+                {
+                    "name": "permissionSets",
+                    "type": "LIST"
+                },
+                {
+                    "name": "permissionName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 92
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "getSanitizedName",
+            "parameters": [
+                {
+                    "name": "permissionName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 12
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "selectById",
+            "parameters": [
+                {
+                    "name": "idSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 13
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "selectByPermissionNames",
+            "parameters": [
+                {
+                    "name": "permissionNames",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 100
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getByPermissionNameWhereClause",
+            "parameters": [
+                {
+                    "name": "sanitizedNames",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "PermissionSetSelector",
+    "namespace": null,
+    "parentClass": "fflib_SObjectSelector",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 9
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PermissionSetSelector",
+        "references": [],
+        "type": "PermissionSetSelector"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "permissionNames",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "sanitizedNames",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "permissionSets",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "permissionName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "permissionSetsContainingPermission",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "permissionSet",
+            "references": [],
+            "type": "PermissionSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 92
+            },
+            "modifiers": [],
+            "name": "permissionName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "permissionNames",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "sanitizedNames",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "whereClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "sanitizedNamesList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

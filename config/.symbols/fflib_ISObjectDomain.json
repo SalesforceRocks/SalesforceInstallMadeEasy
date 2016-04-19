@@ -1,0 +1,60 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYw5AAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000003zYw5AAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 17
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "sObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 22
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "getRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "fflib_ISObjectDomain",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 12
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_ISObjectDomain",
+        "references": [],
+        "type": "fflib_ISObjectDomain"
+    },
+    "variables": []
+}

@@ -95,6 +95,9 @@ public virtual class fflib_SObjectUnitOfWork
 		}
 		public void dmlDelete(List<SObject> objList){
 			delete objList;
+			if (true) {
+				System.debug('whatever');
+			}
 		}
 	}
 	/**

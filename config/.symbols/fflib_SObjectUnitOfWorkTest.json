@@ -1,0 +1,1103 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYwIAAU",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IDoWork"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 335
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "doWork",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "FailDoingWork",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 333
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "FailDoingWork",
+                "references": [],
+                "type": "FailDoingWork"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 359
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DerivedUnitOfWork",
+                    "parameters": [
+                        {
+                            "name": "sObjectTypes",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 364
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DerivedUnitOfWork",
+                    "parameters": [
+                        {
+                            "name": "sObjectTypes",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "dml",
+                            "type": "IDML"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 349
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getCommitWorkEventsFired",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 354
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getRegisteredTypes",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Set",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 369
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "addEvent",
+                    "parameters": [
+                        {
+                            "name": "event",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 383
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onRegisterType",
+                    "parameters": [
+                        {
+                            "name": "sObjectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 392
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onCommitWorkStarting",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 397
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onDMLStarting",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 402
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onDMLFinished",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 407
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onDoWorkStarting",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 412
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onDoWorkFinished",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 417
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onCommitWorkFinishing",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 422
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onCommitWorkFinished",
+                    "parameters": [
+                        {
+                            "name": "wasSuccessful",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "DerivedUnitOfWork",
+            "namespace": null,
+            "parentClass": "fflib_SObjectUnitOfWork",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 346
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_commitWorkEventsFired",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 347
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_registeredTypes",
+                    "references": [],
+                    "type": "Set"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 16,
+                    "line": 344
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "DerivedUnitOfWork",
+                "references": [],
+                "type": "DerivedUnitOfWork"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 359
+                    },
+                    "modifiers": [],
+                    "name": "sObjectTypes",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 364
+                    },
+                    "modifiers": [],
+                    "name": "sObjectTypes",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 72,
+                        "line": 364
+                    },
+                    "modifiers": [],
+                    "name": "dml",
+                    "references": [],
+                    "type": "IDML"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 369
+                    },
+                    "modifiers": [],
+                    "name": "event",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 373
+                    },
+                    "modifiers": [],
+                    "name": "eventName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 383
+                    },
+                    "modifiers": [],
+                    "name": "sObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 422
+                    },
+                    "modifiers": [],
+                    "name": "wasSuccessful",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DerivedUnitOfWorkException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 428
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DerivedUnitOfWorkException",
+                "references": [],
+                "type": "DerivedUnitOfWorkException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "FailDoingWorkException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 429
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "FailDoingWorkException",
+                "references": [],
+                "type": "FailDoingWorkException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003zYwIAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 39
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUnitOfWorkNewDirtyDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 150
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "assertResults",
+            "parameters": [
+                {
+                    "name": "prefix",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 177
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDerivedUnitOfWork_CommitSuccess",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 232
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDerivedUnitOfWork_CommitDMLFail",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 270
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testDerivedUnitOfWork_CommitDoWorkFail",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 313
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "assertEvents",
+            "parameters": [
+                {
+                    "name": "expectedEvents",
+                    "type": "LIST"
+                },
+                {
+                    "name": "actualEvents",
+                    "type": "LIST"
+                },
+                {
+                    "name": "expectedTypes",
+                    "type": "Set"
+                },
+                {
+                    "name": "actualTypes",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_SObjectUnitOfWorkTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 31
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "MY_SOBJECTS",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 28,
+            "line": 28
+        },
+        "modifiers": [
+            "private",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "fflib_SObjectUnitOfWorkTest",
+        "references": [],
+        "type": "fflib_SObjectUnitOfWorkTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "uow",
+            "references": [],
+            "type": "fflib_SObjectUnitOfWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "product",
+            "references": [],
+            "type": "Product2"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "pbe",
+            "references": [],
+            "type": "PricebookEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "oppLineItem",
+            "references": [],
+            "type": "OpportunityLineItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "uow",
+            "references": [],
+            "type": "fflib_SObjectUnitOfWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "product",
+            "references": [],
+            "type": "Product2"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "pbe",
+            "references": [],
+            "type": "PricebookEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "newOppLineItem",
+            "references": [],
+            "type": "OpportunityLineItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "existingOppLine",
+            "references": [],
+            "type": "OpportunityLineItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 126
+            },
+            "modifiers": [],
+            "name": "uow",
+            "references": [],
+            "type": "fflib_SObjectUnitOfWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "prods",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "prefix",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "filter",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "opps",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "uow",
+            "references": [],
+            "type": "DerivedUnitOfWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 183
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "product",
+            "references": [],
+            "type": "Product2"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "pbe",
+            "references": [],
+            "type": "PricebookEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 199
+            },
+            "modifiers": [],
+            "name": "oppLineItem",
+            "references": [],
+            "type": "OpportunityLineItem"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "uow",
+            "references": [],
+            "type": "DerivedUnitOfWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 236
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "didFail",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "caughtEx",
+            "references": [],
+            "type": "DmlException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "uow",
+            "references": [],
+            "type": "DerivedUnitOfWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 274
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 281
+            },
+            "modifiers": [],
+            "name": "fdw",
+            "references": [],
+            "type": "FailDoingWork"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "didFail",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 285
+            },
+            "modifiers": [],
+            "name": "caughtEx",
+            "references": [],
+            "type": "FailDoingWorkException"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "expectedEvents",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "actualEvents",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 115,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "expectedTypes",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 154,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "actualTypes",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 324
+            },
+            "modifiers": [],
+            "name": "sObjectType",
+            "references": [],
+            "type": "SObjectType"
+        }
+    ]
+}

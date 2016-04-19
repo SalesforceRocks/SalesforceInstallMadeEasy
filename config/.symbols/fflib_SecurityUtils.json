@@ -1,0 +1,1207 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003zYwJAAU",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "OperationType",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [
+                    {
+                        "name": "TestVisible"
+                    }
+                ],
+                "location": {
+                    "column": 18,
+                    "line": 34
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "OperationType",
+                "references": [],
+                "type": "OperationType"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "SecurityException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 42
+                    },
+                    "modifiers": [
+                        "protected"
+                    ],
+                    "name": "m_operation",
+                    "references": [],
+                    "type": "OperationType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 43
+                    },
+                    "modifiers": [
+                        "protected"
+                    ],
+                    "name": "m_objectType",
+                    "references": [],
+                    "type": "SObjectType"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 26,
+                    "line": 41
+                },
+                "modifiers": [
+                    "virtual",
+                    "public"
+                ],
+                "name": "SecurityException",
+                "references": [],
+                "type": "SecurityException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 52
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "CrudException",
+                    "parameters": [
+                        {
+                            "name": "operation",
+                            "type": "OperationType"
+                        },
+                        {
+                            "name": "objectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "CrudException",
+            "namespace": null,
+            "parentClass": "SecurityException",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 50
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "CrudException",
+                "references": [],
+                "type": "CrudException"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 52
+                    },
+                    "modifiers": [],
+                    "name": "operation",
+                    "references": [],
+                    "type": "OperationType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 72,
+                        "line": 52
+                    },
+                    "modifiers": [],
+                    "name": "objectType",
+                    "references": [],
+                    "type": "SObjectType"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 14,
+                        "line": 81
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "FlsException",
+                    "parameters": [
+                        {
+                            "name": "operation",
+                            "type": "OperationType"
+                        },
+                        {
+                            "name": "objectType",
+                            "type": "SObjectType"
+                        },
+                        {
+                            "name": "fieldToken",
+                            "type": "SObjectField"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "FlsException",
+            "namespace": null,
+            "parentClass": "SecurityException",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 79
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "m_fieldToken",
+                    "references": [],
+                    "type": "SObjectField"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 78
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "FlsException",
+                "references": [],
+                "type": "FlsException"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 81
+                    },
+                    "modifiers": [],
+                    "name": "operation",
+                    "references": [],
+                    "type": "OperationType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 81
+                    },
+                    "modifiers": [],
+                    "name": "objectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 103,
+                        "line": 81
+                    },
+                    "modifiers": [],
+                    "name": "fieldToken",
+                    "references": [],
+                    "type": "SObjectField"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003zYwJAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 121
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkInsert",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldNames",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 135
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkInsert",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldTokens",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 149
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkRead",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldNames",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 163
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkRead",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldTokens",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 177
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkUpdate",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldNames",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 191
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkUpdate",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldTokens",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 208
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsInsertable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 217
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsInsertable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldToken",
+                    "type": "SObjectField"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 226
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsInsertable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldDescribe",
+                    "type": "DescribeFieldResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 238
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsReadable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 247
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsReadable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldToken",
+                    "type": "SObjectField"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 256
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsReadable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldDescribe",
+                    "type": "DescribeFieldResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 269
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsUpdateable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 278
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsUpdateable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldToken",
+                    "type": "SObjectField"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 287
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldIsUpdateable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                },
+                {
+                    "name": "fieldDescribe",
+                    "type": "DescribeFieldResult"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 303
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkObjectIsInsertable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 317
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkObjectIsReadable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 329
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkObjectIsUpdateable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 341
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkObjectIsDeletable",
+            "parameters": [
+                {
+                    "name": "objType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "fflib_SecurityUtils",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 110
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "BYPASS_INTERNAL_FLS_AND_CRUD",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 31
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "fflib_SecurityUtils",
+        "references": [],
+        "type": "fflib_SecurityUtils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 124
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "fieldTokens",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 138
+            },
+            "modifiers": [],
+            "name": "fieldToken",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "fieldTokens",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 166
+            },
+            "modifiers": [],
+            "name": "fieldToken",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 180
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "fieldTokens",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "fieldToken",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 217
+            },
+            "modifiers": [],
+            "name": "fieldToken",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "fieldDescribe",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 247
+            },
+            "modifiers": [],
+            "name": "fieldToken",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "fieldDescribe",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 278
+            },
+            "modifiers": [],
+            "name": "fieldToken",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 287
+            },
+            "modifiers": [],
+            "name": "fieldDescribe",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 317
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 329
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 341
+            },
+            "modifiers": [],
+            "name": "objType",
+            "references": [],
+            "type": "SObjectType"
+        }
+    ]
+}

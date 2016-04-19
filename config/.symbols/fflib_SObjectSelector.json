@@ -1,0 +1,1071 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 89
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_SObjectSelector",
+            "parameters": [],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 99
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_SObjectSelector",
+            "parameters": [
+                {
+                    "name": "includeFieldSetFields",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 109
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_SObjectSelector",
+            "parameters": [
+                {
+                    "name": "includeFieldSetFields",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "enforceCRUD",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "enforceFLS",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 122
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_SObjectSelector",
+            "parameters": [
+                {
+                    "name": "includeFieldSetFields",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "enforceCRUD",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "enforceFLS",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "sortSelectFields",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003zYwFAAU",
+    "innerClasses": [],
+    "interfaces": [
+        "fflib_ISObjectSelector"
+    ],
+    "key": "01p58000003zYwFAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 79
+            },
+            "modifiers": [
+                "private",
+                "abstract"
+            ],
+            "name": "getSObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 84
+            },
+            "modifiers": [
+                "private",
+                "abstract"
+            ],
+            "name": "getSObjectFieldList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 133
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "getSObjectFieldSetList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 142
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "getOrderBy",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 156
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isIncludeFieldSetFields",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 164
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isEnforcingFLS",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 172
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isEnforcingCRUD",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 183
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFieldListBuilder",
+            "parameters": [],
+            "references": [],
+            "returnType": "FieldListBuilder",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 197
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setFieldListBuilder",
+            "parameters": [
+                {
+                    "name": "fieldListBuilder",
+                    "type": "FieldListBuilder"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 207
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getFieldListString",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 218
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getRelatedFieldListString",
+            "parameters": [
+                {
+                    "name": "relation",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 226
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSObjectName",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 239
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectSObjectsById",
+            "parameters": [
+                {
+                    "name": "idSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 252
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "queryLocatorById",
+            "parameters": [
+                {
+                    "name": "idSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 262
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "assertIsAccessible",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 273
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSObjectType2",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 282
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 290
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newQueryFactory",
+            "parameters": [],
+            "references": [],
+            "returnType": "fflib_QueryFactory",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 298
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newQueryFactory",
+            "parameters": [
+                {
+                    "name": "includeSelectorFields",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_QueryFactory",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 307
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "newQueryFactory",
+            "parameters": [
+                {
+                    "name": "assertCRUD",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "enforceFLS",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "includeSelectorFields",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_QueryFactory",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 320
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "configureQueryFactoryFields",
+            "parameters": [
+                {
+                    "name": "queryFactory",
+                    "type": "fflib_QueryFactory"
+                },
+                {
+                    "name": "relationshipFieldPath",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 334
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addQueryFactorySubselect",
+            "parameters": [
+                {
+                    "name": "parentQueryFactory",
+                    "type": "fflib_QueryFactory"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_QueryFactory",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 342
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "addQueryFactorySubselect",
+            "parameters": [
+                {
+                    "name": "parentQueryFactory",
+                    "type": "fflib_QueryFactory"
+                },
+                {
+                    "name": "includeSelectorFields",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_QueryFactory",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 356
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "buildQuerySObjectById",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 364
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "configureQueryFactory",
+            "parameters": [
+                {
+                    "name": "queryFactory",
+                    "type": "fflib_QueryFactory"
+                },
+                {
+                    "name": "assertCRUD",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "enforceFLS",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "includeSelectorFields",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_QueryFactory",
+            "type": null
+        }
+    ],
+    "name": "fflib_SObjectSelector",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 41
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "m_includeFieldSetFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 46
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "m_enforceFLS",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 51
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "m_enforceCRUD",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 56
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "m_orderBy",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 62
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "m_sortSelectFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 67
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "describeWrapper",
+            "references": [],
+            "type": "fflib_SObjectDescribe"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 36
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "STANDARD_WITHOUT_CURRENCYISO",
+            "references": [],
+            "type": "Set"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 36,
+            "line": 30
+        },
+        "modifiers": [
+            "public",
+            "abstract",
+            "with sharing"
+        ],
+        "name": "fflib_SObjectSelector",
+        "references": [],
+        "type": "fflib_SObjectSelector"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "includeFieldSetFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "includeFieldSetFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "enforceCRUD",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "enforceFLS",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "includeFieldSetFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "enforceCRUD",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "enforceFLS",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 114,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "sortSelectFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "sObjectFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "queryField",
+            "references": [],
+            "type": "QueryField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "fieldListBuilder",
+            "references": [],
+            "type": "FieldListBuilder"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "relation",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "includeSelectorFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 307
+            },
+            "modifiers": [],
+            "name": "assertCRUD",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 307
+            },
+            "modifiers": [],
+            "name": "enforceFLS",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 307
+            },
+            "modifiers": [],
+            "name": "includeSelectorFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "queryFactory",
+            "references": [],
+            "type": "fflib_QueryFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "relationshipFieldPath",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 323
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "parentQueryFactory",
+            "references": [],
+            "type": "fflib_QueryFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "parentQueryFactory",
+            "references": [],
+            "type": "fflib_QueryFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 342
+            },
+            "modifiers": [],
+            "name": "includeSelectorFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "subSelectQueryFactory",
+            "references": [],
+            "type": "fflib_QueryFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "queryFactory",
+            "references": [],
+            "type": "fflib_QueryFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "assertCRUD",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 115,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "enforceFLS",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 135,
+                "line": 364
+            },
+            "modifiers": [],
+            "name": "includeSelectorFields",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "fieldSetList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 388
+            },
+            "modifiers": [],
+            "name": "fieldSet",
+            "references": [],
+            "type": "FieldSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 398
+            },
+            "modifiers": [],
+            "name": "orderBy",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 401
+            },
+            "modifiers": [],
+            "name": "orderByParts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 402
+            },
+            "modifiers": [],
+            "name": "fieldNamePart",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 403
+            },
+            "modifiers": [],
+            "name": "fieldSortOrderPart",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 404
+            },
+            "modifiers": [],
+            "name": "fieldSortOrder",
+            "references": [],
+            "type": "SortOrder"
+        }
+    ]
+}

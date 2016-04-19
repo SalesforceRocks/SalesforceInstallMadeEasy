@@ -1,0 +1,3877 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 96
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_SObjectDomain",
+            "parameters": [
+                {
+                    "name": "sObjectList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 110
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "fflib_SObjectDomain",
+            "parameters": [
+                {
+                    "name": "sObjectList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "sObjectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000003zYwCAAU",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "IConstructable",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 278
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IConstructable",
+                "references": [],
+                "type": "IConstructable"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IConstructable"
+            ],
+            "key": null,
+            "methods": [],
+            "name": "IConstructable2",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 286
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IConstructable2",
+                "references": [],
+                "type": "IConstructable2"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 426
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TriggerEvent",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 432
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableBeforeInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 433
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableBeforeUpdate",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 434
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableBeforeDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 436
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableBeforeInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 437
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableBeforeUpdate",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 438
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableBeforeDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 441
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAfterInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 442
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAfterUpdate",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 443
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAfterDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 444
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAfterUndelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 447
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAfterInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 448
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAfterUpdate",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 449
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAfterDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 450
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAfterUndelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 452
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAll",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 457
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAll",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 462
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAllBefore",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 467
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAllBefore",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 472
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableAllAfter",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 477
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableAllAfter",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "TriggerEvent",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 482
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isEnabled",
+                    "parameters": [
+                        {
+                            "name": "isBefore",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isAfter",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isInsert",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isUpdate",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isDelete",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isUndelete",
+                            "type": "Boolean"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "TriggerEvent",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 417
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "BeforeInsertEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 418
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "BeforeUpdateEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 419
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "BeforeDeleteEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 421
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AfterInsertEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 422
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AfterUpdateEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 423
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AfterDeleteEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 424
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AfterUndeleteEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 415
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TriggerEvent",
+                "references": [],
+                "type": "TriggerEvent"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 36,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "isBefore",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "isAfter",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "isInsert",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 89,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "isUpdate",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 107,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "isDelete",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 125,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "isUndelete",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 523
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Configuration",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 533
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableTriggerState",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Configuration",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 542
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableTriggerState",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Configuration",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 551
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enforceTriggerCRUDSecurity",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Configuration",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 560
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableTriggerCRUDSecurity",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Configuration",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 569
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "enableOldOnUpdateValidateBehaviour",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Configuration",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 578
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableOldOnUpdateValidateBehaviour",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Configuration",
+                    "type": null
+                }
+            ],
+            "name": "Configuration",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 509
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "OldOnUpdateValidateBehaviour",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 513
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "EnforcingTriggerCRUDSecurity",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 518
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TriggerStateEnabled",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 504
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Configuration",
+                "references": [],
+                "type": "Configuration"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DomainException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 588
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DomainException",
+                "references": [],
+                "type": "DomainException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 615
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ErrorFactory",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 620
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "error",
+                    "parameters": [
+                        {
+                            "name": "message",
+                            "type": "String"
+                        },
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 625
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "error",
+                    "parameters": [
+                        {
+                            "name": "domain",
+                            "type": "fflib_SObjectDomain"
+                        },
+                        {
+                            "name": "message",
+                            "type": "String"
+                        },
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 635
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "error",
+                    "parameters": [
+                        {
+                            "name": "message",
+                            "type": "String"
+                        },
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        },
+                        {
+                            "name": "field",
+                            "type": "SObjectField"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 640
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "error",
+                    "parameters": [
+                        {
+                            "name": "domain",
+                            "type": "fflib_SObjectDomain"
+                        },
+                        {
+                            "name": "message",
+                            "type": "String"
+                        },
+                        {
+                            "name": "record",
+                            "type": "SObject"
+                        },
+                        {
+                            "name": "field",
+                            "type": "SObjectField"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 651
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getAll",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "LIST",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 656
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clearAll",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "ErrorFactory",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 613
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "errorList",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 611
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ErrorFactory",
+                "references": [],
+                "type": "ErrorFactory"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 620
+                    },
+                    "modifiers": [],
+                    "name": "message",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 620
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 625
+                    },
+                    "modifiers": [],
+                    "name": "domain",
+                    "references": [],
+                    "type": "fflib_SObjectDomain"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 625
+                    },
+                    "modifiers": [],
+                    "name": "message",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 76,
+                        "line": 625
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 627
+                    },
+                    "modifiers": [],
+                    "name": "objectError",
+                    "references": [],
+                    "type": "ObjectError"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 635
+                    },
+                    "modifiers": [],
+                    "name": "message",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 635
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 68,
+                        "line": 635
+                    },
+                    "modifiers": [],
+                    "name": "field",
+                    "references": [],
+                    "type": "SObjectField"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 640
+                    },
+                    "modifiers": [],
+                    "name": "domain",
+                    "references": [],
+                    "type": "fflib_SObjectDomain"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 640
+                    },
+                    "modifiers": [],
+                    "name": "message",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 76,
+                        "line": 640
+                    },
+                    "modifiers": [],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 97,
+                        "line": 640
+                    },
+                    "modifiers": [],
+                    "name": "field",
+                    "references": [],
+                    "type": "SObjectField"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 642
+                    },
+                    "modifiers": [],
+                    "name": "fieldError",
+                    "references": [],
+                    "type": "FieldError"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 669
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FieldError",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "FieldError",
+            "namespace": null,
+            "parentClass": "ObjectError",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 667
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "field",
+                    "references": [],
+                    "type": "SObjectField"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 665
+                },
+                "modifiers": [
+                    "virtual",
+                    "public"
+                ],
+                "name": "FieldError",
+                "references": [],
+                "type": "FieldError"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 682
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ObjectError",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ObjectError",
+            "namespace": null,
+            "parentClass": "Error",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 680
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "record",
+                    "references": [],
+                    "type": "SObject"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 23,
+                    "line": 678
+                },
+                "modifiers": [
+                    "virtual",
+                    "public"
+                ],
+                "name": "ObjectError",
+                "references": [],
+                "type": "ObjectError"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Error",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 693
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "message",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 694
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "domain",
+                    "references": [],
+                    "type": "fflib_SObjectDomain"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 24,
+                    "line": 691
+                },
+                "modifiers": [
+                    "public",
+                    "abstract"
+                ],
+                "name": "Error",
+                "references": [],
+                "type": "Error"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 704
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "TestFactory",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "TestFactory",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 702
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Database",
+                    "references": [],
+                    "type": "MockDatabase"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 700
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestFactory",
+                "references": [],
+                "type": "TestFactory"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 722
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "MockDatabase",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 727
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "testTriggerHandler",
+                    "parameters": [
+                        {
+                            "name": "domainClass",
+                            "type": "Type"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 736
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "onInsert",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 745
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "onUpdate",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "oldRecords",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 755
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "onDelete",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 764
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "onUndelete",
+                    "parameters": [
+                        {
+                            "name": "records",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 773
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "hasRecords",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                }
+            ],
+            "name": "MockDatabase",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 715
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "isInsert",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 716
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "isUpdate",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 717
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "isDelete",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 718
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "isUndelete",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 719
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 720
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "oldRecords",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 713
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "MockDatabase",
+                "references": [],
+                "type": "MockDatabase"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 727
+                    },
+                    "modifiers": [],
+                    "name": "domainClass",
+                    "references": [],
+                    "type": "Type"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 736
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 745
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 64,
+                        "line": 745
+                    },
+                    "modifiers": [],
+                    "name": "oldRecords",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 755
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 764
+                    },
+                    "modifiers": [],
+                    "name": "records",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 786
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TestSObjectDomain",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 792
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TestSObjectDomain",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "sObjectType",
+                            "type": "SObjectType"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 798
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onApplyDefaults",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 810
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onValidate",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 825
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onValidate",
+                    "parameters": [
+                        {
+                            "name": "existingRecords",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 841
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onBeforeDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 853
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterUndelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 859
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onBeforeInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 865
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectDomain",
+            "namespace": null,
+            "parentClass": "fflib_SObjectDomain",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 784
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "someState",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 28,
+                    "line": 782
+                },
+                "modifiers": [
+                    "public",
+                    "with sharing"
+                ],
+                "name": "TestSObjectDomain",
+                "references": [],
+                "type": "TestSObjectDomain"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 46,
+                        "line": 786
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 46,
+                        "line": 792
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 792
+                    },
+                    "modifiers": [],
+                    "name": "sObjectType",
+                    "references": [],
+                    "type": "SObjectType"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 804
+                    },
+                    "modifiers": [],
+                    "name": "opportunity",
+                    "references": [],
+                    "type": "Opportunity"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 816
+                    },
+                    "modifiers": [],
+                    "name": "opp",
+                    "references": [],
+                    "type": "Opportunity"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 51,
+                        "line": 825
+                    },
+                    "modifiers": [],
+                    "name": "existingRecords",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 831
+                    },
+                    "modifiers": [],
+                    "name": "opp",
+                    "references": [],
+                    "type": "Opportunity"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 833
+                    },
+                    "modifiers": [],
+                    "name": "existingOpp",
+                    "references": [],
+                    "type": "Opportunity"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 847
+                    },
+                    "modifiers": [],
+                    "name": "opp",
+                    "references": [],
+                    "type": "Opportunity"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IConstructable"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 877
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "construct",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_SObjectDomain",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectDomainConstructor",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 875
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestSObjectDomainConstructor",
+                "references": [],
+                "type": "TestSObjectDomainConstructor"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 877
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 891
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TestSObjectStatefulDomain",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 899
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onBeforeInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 925
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectStatefulDomain",
+            "namespace": null,
+            "parentClass": "fflib_SObjectDomain",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 889
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "someState",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 28,
+                    "line": 886
+                },
+                "modifiers": [
+                    "public",
+                    "with sharing"
+                ],
+                "name": "TestSObjectStatefulDomain",
+                "references": [],
+                "type": "TestSObjectStatefulDomain"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 891
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 905
+                    },
+                    "modifiers": [],
+                    "name": "newOpps",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 906
+                    },
+                    "modifiers": [],
+                    "name": "opp",
+                    "references": [],
+                    "type": "Opportunity"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 929
+                    },
+                    "modifiers": [],
+                    "name": "opp",
+                    "references": [],
+                    "type": "Opportunity"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IConstructable"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 939
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "construct",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_SObjectDomain",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectStatefulDomainConstructor",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 937
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestSObjectStatefulDomainConstructor",
+                "references": [],
+                "type": "TestSObjectStatefulDomainConstructor"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 939
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 951
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TestSObjectOnValidateBehaviour",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 960
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onValidate",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectOnValidateBehaviour",
+            "namespace": null,
+            "parentClass": "fflib_SObjectDomain",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 28,
+                    "line": 948
+                },
+                "modifiers": [
+                    "public",
+                    "with sharing"
+                ],
+                "name": "TestSObjectOnValidateBehaviour",
+                "references": [],
+                "type": "TestSObjectOnValidateBehaviour"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 951
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IConstructable"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 972
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "construct",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_SObjectDomain",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectOnValidateBehaviourConstructor",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 970
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestSObjectOnValidateBehaviourConstructor",
+                "references": [],
+                "type": "TestSObjectOnValidateBehaviourConstructor"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 972
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 984
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "TestSObjectDisableBehaviour",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 989
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 994
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onBeforeInsert",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 999
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterUpdate",
+                    "parameters": [
+                        {
+                            "name": "existing",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 1004
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onBeforeUpdate",
+                    "parameters": [
+                        {
+                            "name": "existing",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 1009
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 1014
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onBeforeDelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 1019
+                    },
+                    "modifiers": [
+                        "public",
+                        "override"
+                    ],
+                    "name": "onAfterUndelete",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectDisableBehaviour",
+            "namespace": null,
+            "parentClass": "fflib_SObjectDomain",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 28,
+                    "line": 981
+                },
+                "modifiers": [
+                    "public",
+                    "with sharing"
+                ],
+                "name": "TestSObjectDisableBehaviour",
+                "references": [],
+                "type": "TestSObjectDisableBehaviour"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 984
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 999
+                    },
+                    "modifiers": [],
+                    "name": "existing",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 1004
+                    },
+                    "modifiers": [],
+                    "name": "existing",
+                    "references": [],
+                    "type": "Map"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [
+                "IConstructable"
+            ],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 1030
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "construct",
+                    "parameters": [
+                        {
+                            "name": "sObjectList",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "fflib_SObjectDomain",
+                    "type": null
+                }
+            ],
+            "name": "TestSObjectDisableBehaviourConstructor",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 1028
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "TestSObjectDisableBehaviourConstructor",
+                "references": [],
+                "type": "TestSObjectDisableBehaviourConstructor"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 1030
+                    },
+                    "modifiers": [],
+                    "name": "sObjectList",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        }
+    ],
+    "interfaces": [
+        "fflib_ISObjectDomain"
+    ],
+    "key": "01p58000003zYwCAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 123
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onApplyDefaults",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 128
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onValidate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 133
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onValidate",
+            "parameters": [
+                {
+                    "name": "existingRecords",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 138
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onBeforeInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 143
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onBeforeUpdate",
+            "parameters": [
+                {
+                    "name": "existingRecords",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 148
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onBeforeDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 153
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onAfterInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 158
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onAfterUpdate",
+            "parameters": [
+                {
+                    "name": "existingRecords",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 163
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onAfterDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 168
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "onAfterUndelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 173
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleBeforeInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 182
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleBeforeUpdate",
+            "parameters": [
+                {
+                    "name": "existingRecords",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 190
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleBeforeDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 200
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleAfterInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 214
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleAfterUpdate",
+            "parameters": [
+                {
+                    "name": "existingRecords",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 230
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleAfterDelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 243
+            },
+            "modifiers": [
+                "virtual",
+                "public"
+            ],
+            "name": "handleAfterUndelete",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 254
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 262
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sObjectType",
+            "parameters": [],
+            "references": [],
+            "returnType": "SObjectType",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 270
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 595
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "error",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "String"
+                },
+                {
+                    "name": "record",
+                    "type": "SObject"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 603
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "error",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "String"
+                },
+                {
+                    "name": "record",
+                    "type": "SObject"
+                },
+                {
+                    "name": "field",
+                    "type": "SObjectField"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 280
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "construct",
+            "parameters": [
+                {
+                    "name": "sObjectList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDomain",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 288
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "construct",
+            "parameters": [
+                {
+                    "name": "sObjectList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "sObjectType",
+                    "type": "SObjectType"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDomain",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 298
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTriggerInstance",
+            "parameters": [
+                {
+                    "name": "domainClass",
+                    "type": "Type"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDomain",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 310
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "triggerHandler",
+            "parameters": [
+                {
+                    "name": "domainClass",
+                    "type": "Type"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 336
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "triggerHandler",
+            "parameters": [
+                {
+                    "name": "domainClass",
+                    "type": "Type"
+                },
+                {
+                    "name": "isBefore",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isAfter",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUpdate",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUndelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "newRecords",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldRecordsMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 384
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "pushTriggerInstance",
+            "parameters": [
+                {
+                    "name": "domainClass",
+                    "type": "Type"
+                },
+                {
+                    "name": "domain",
+                    "type": "fflib_SObjectDomain"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 395
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "popTriggerInstance",
+            "parameters": [
+                {
+                    "name": "domainClass",
+                    "type": "Type"
+                },
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "fflib_SObjectDomain",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 405
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTriggerEvent",
+            "parameters": [
+                {
+                    "name": "domainClass",
+                    "type": "Type"
+                }
+            ],
+            "references": [],
+            "returnType": "TriggerEvent",
+            "type": null
+        }
+    ],
+    "name": "fflib_SObjectDomain",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 47
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SObjectDescribe",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 57
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Configuration",
+            "references": [],
+            "type": "Configuration"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 62
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "Errors",
+            "references": [],
+            "type": "ErrorFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 67
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "Test",
+            "references": [],
+            "type": "TestFactory"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 72
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "TriggerStateByClass",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 77
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "TriggerEventByClass",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 35,
+            "line": 41
+        },
+        "modifiers": [
+            "virtual",
+            "public",
+            "with sharing"
+        ],
+        "name": "fflib_SObjectDomain",
+        "references": [],
+        "type": "fflib_SObjectDomain"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 96
+            },
+            "modifiers": [],
+            "name": "sObjectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "sObjectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "sObjectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "existingRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "existingRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "existingRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "existingRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "existingRecords",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 595
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 603
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 603
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 603
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 280
+            },
+            "modifiers": [],
+            "name": "sObjectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "sObjectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 288
+            },
+            "modifiers": [],
+            "name": "sObjectType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "domainClass",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 300
+            },
+            "modifiers": [],
+            "name": "domains",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "domainClass",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "domainClass",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 116,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 134,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 152,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "isUndelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 178,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "newRecords",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 207,
+                "line": 336
+            },
+            "modifiers": [],
+            "name": "oldRecordsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 339
+            },
+            "modifiers": [],
+            "name": "domainObject",
+            "references": [],
+            "type": "fflib_SObjectDomain"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 343
+            },
+            "modifiers": [],
+            "name": "domainClassName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 344
+            },
+            "modifiers": [],
+            "name": "constructableClass",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "domainConstructor",
+            "references": [],
+            "type": "IConstructable"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "domainClass",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 80,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "domain",
+            "references": [],
+            "type": "fflib_SObjectDomain"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 386
+            },
+            "modifiers": [],
+            "name": "domains",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "domainClass",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 397
+            },
+            "modifiers": [],
+            "name": "domains",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 400
+            },
+            "modifiers": [],
+            "name": "domain",
+            "references": [],
+            "type": "fflib_SObjectDomain"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 405
+            },
+            "modifiers": [],
+            "name": "domainClass",
+            "references": [],
+            "type": "Type"
+        }
+    ]
+}

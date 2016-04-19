@@ -1,0 +1,403 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000003NiXlAAK",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "IPermissionService",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 13
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "IPermissionService",
+                "references": [],
+                "type": "IPermissionService"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 66
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "PermissionAccessRequest",
+                    "parameters": [
+                        {
+                            "name": "userId",
+                            "type": "Id"
+                        },
+                        {
+                            "name": "permissionName",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 49
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "hasPermission",
+                    "parameters": [
+                        {
+                            "name": "permission",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Boolean",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getPermissionsRequested",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Set",
+                    "type": null
+                }
+            ],
+            "name": "PermissionAccessRequest",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 26
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "permissionsGranted",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userId",
+                    "references": [],
+                    "type": "Id"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 22
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "PermissionAccessRequest",
+                "references": [],
+                "type": "PermissionAccessRequest"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 49
+                    },
+                    "modifiers": [],
+                    "name": "permission",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 66
+                    },
+                    "modifiers": [],
+                    "name": "userId",
+                    "references": [],
+                    "type": "Id"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 66
+                    },
+                    "modifiers": [],
+                    "name": "permissionName",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "PermissionSetServiceException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 118
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "PermissionSetServiceException",
+                "references": [],
+                "type": "PermissionSetServiceException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p58000003NiXlAAK",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 77
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasModifyAllDataPermission",
+            "parameters": [
+                {
+                    "name": "userIds",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 87
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasSinglePermissionGranted",
+            "parameters": [
+                {
+                    "name": "userIds",
+                    "type": "Set"
+                },
+                {
+                    "name": "permission",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 100
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "hasPermissionsGranted",
+            "parameters": [
+                {
+                    "name": "permissionAccessRequests",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "PermissionService",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 16
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "MODIFY_ALL_DATA",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 11
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PermissionService",
+        "references": [],
+        "type": "PermissionService"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "userIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "userIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "permission",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "permissionAccessRequests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "userId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 98,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "permissionAccessRequests",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "permissionsRequested",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "PermissionAccessRequest"
+        }
+    ]
+}
